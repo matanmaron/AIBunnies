@@ -1,42 +1,58 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.Characters.ThirdPerson;
 
-public class Player : MonoBehaviour
+namespace AIBunnies
 {
-    [SerializeField] float speed;
-    [SerializeField] KeyCode UP;
-    [SerializeField] KeyCode DOWN;
-    [SerializeField] KeyCode LEFT;
-    [SerializeField] KeyCode RIGHT;
-
-    // Update is called once per frame
-    void Update()
+    public class Player : MonoBehaviour
     {
-        Vector2 direction = GetInput();
-        transform.position = new Vector3(transform.position.x + (direction.y * speed), transform.position.y, transform.position.z + (direction.x * speed));
-    }
+        public float speed = 0.02f;
+        public float distance = 1.5f;
+        public ThirdPersonCharacter thirdPersonCharacter;
+        Vector3 goal;
+        Animator anim;
+        bool isWalking;
 
-    private Vector2 GetInput()
-    {
-        Vector2 direction = new Vector2();
-        if (Input.GetKeyDown(UP))
+        private void Start()
         {
-            direction.x += 1;
+            anim = GetComponent<Animator>();
+            goal = transform.position;
         }
-        if (Input.GetKeyDown(DOWN))
+
+        void Update()
         {
-            direction.x -= 1;
+            if (Input.GetMouseButtonUp(0))
+            {
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                RaycastHit hit;
+                if (Physics.Raycast(ray, out hit))
+                {
+                    Debug.Log($"new target set - {hit.point}");
+                    goal = hit.point;
+                }
+            }
+            Vector3 realGoal = new Vector3(goal.x,
+                transform.position.y, goal.z);
+            Vector3 direction = realGoal - transform.position;
+
+            if (direction.magnitude >= distance)
+            {
+                if (!isWalking)
+                {
+                    anim.SetBool("Run",true);
+                    isWalking = true;
+                }
+                Vector3 pushVector = direction.normalized * speed;
+                transform.Translate(pushVector, Space.World);
+                thirdPersonCharacter.Move(pushVector, false, false);
+            }
+            else if (isWalking)
+            {
+                anim.SetBool("Run", false);
+                isWalking = false;
+            }
+            Debug.DrawLine(transform.position, realGoal, Color.green);
         }
-        if (Input.GetKeyDown(LEFT))
-        {
-            direction.y -= 1;
-        }
-        if (Input.GetKeyDown(RIGHT))
-        {
-            direction.y += 1;
-        }
-        return direction;
     }
 }
