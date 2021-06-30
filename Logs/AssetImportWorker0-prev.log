@@ -1,0 +1,1999 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1055; Version 2009; 64bit' Language: 'en' Physical Memory: 32637 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/matan/Documents/GitHub/AIBunnies
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61302
+Successfully changed project path to: C:/Users/matan/Documents/GitHub/AIBunnies
+C:/Users/matan/Documents/GitHub/AIBunnies
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 22.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/matan/Documents/GitHub/AIBunnies/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   30.0.14.7111
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001306 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 20.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.322 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002108 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.662 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1389 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1826.
+Total: 1.237700 ms (FindLiveObjects: 0.095300 ms CreateObjectMapping: 0.027000 ms MarkObjects: 1.058800 ms  DeleteObjects: 0.055800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Bunnies/Scripts/Player.cs
+  artifactKey: Guid(738e46b61252c824294681196dec5872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bunnies/Scripts/Player.cs using Guid(738e46b61252c824294681196dec5872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3270cf28107b2ee9e3229ddb4678e58a') in 0.016723 seconds
+  Import took 0.019834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7724.214292 seconds.
+  path: Assets/Standard Assets/Utility/SimpleActivatorMenu.cs
+  artifactKey: Guid(69b69a5b0e0a85b4aa97a7edc40c37d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Utility/SimpleActivatorMenu.cs using Guid(69b69a5b0e0a85b4aa97a7edc40c37d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552e3fe06e25ca657b305d775251df73') in 0.005598 seconds
+  Import took 0.007932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Standard Assets/Utility/SimpleActivatorMenu.cs
+  artifactKey: Guid(69b69a5b0e0a85b4aa97a7edc40c37d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Utility/SimpleActivatorMenu.cs using Guid(69b69a5b0e0a85b4aa97a7edc40c37d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552e3fe06e25ca657b305d775251df73') in 0.001426 seconds
+  Import took 0.003634 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.055912 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.727 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.3 MB.
+System memory in use after: 72.8 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1942.
+Total: 3.667700 ms (FindLiveObjects: 0.269100 ms CreateObjectMapping: 0.055800 ms MarkObjects: 1.519500 ms  DeleteObjects: 1.821200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002477 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.685 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.0 MB.
+System memory in use after: 72.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1945.
+Total: 3.343600 ms (FindLiveObjects: 0.204500 ms CreateObjectMapping: 0.036100 ms MarkObjects: 1.177500 ms  DeleteObjects: 1.923400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003252 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.644 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.2 MB.
+System memory in use after: 72.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1948.
+Total: 4.454700 ms (FindLiveObjects: 0.193100 ms CreateObjectMapping: 0.052100 ms MarkObjects: 1.648500 ms  DeleteObjects: 2.559500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002695 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.716 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 72.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1951.
+Total: 3.779700 ms (FindLiveObjects: 0.187000 ms CreateObjectMapping: 0.063900 ms MarkObjects: 1.514200 ms  DeleteObjects: 2.013600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002005 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.676 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 72.8 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1954.
+Total: 3.013500 ms (FindLiveObjects: 0.104100 ms CreateObjectMapping: 0.029000 ms MarkObjects: 1.037800 ms  DeleteObjects: 1.841800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 484.980794 seconds.
+  path: Assets/Rabbits/Demo/Animator/DemoAnimator.controller
+  artifactKey: Guid(8beaedaf7a4023642b48737ef7ee04b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rabbits/Demo/Animator/DemoAnimator.controller using Guid(8beaedaf7a4023642b48737ef7ee04b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ea91bf25edf64a625b50ee745c1148') in 0.036234 seconds
+  Import took 0.038408 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002376 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.667 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 72.8 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1957.
+Total: 3.718000 ms (FindLiveObjects: 0.117200 ms CreateObjectMapping: 0.032900 ms MarkObjects: 1.283600 ms  DeleteObjects: 2.283400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002223 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.628 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.3 MB.
+System memory in use after: 72.8 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1960.
+Total: 3.110800 ms (FindLiveObjects: 0.100000 ms CreateObjectMapping: 0.029000 ms MarkObjects: 1.112600 ms  DeleteObjects: 1.868700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002276 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.630 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.3 MB.
+System memory in use after: 72.8 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1963.
+Total: 3.689900 ms (FindLiveObjects: 0.145700 ms CreateObjectMapping: 0.051900 ms MarkObjects: 1.273800 ms  DeleteObjects: 2.217100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002079 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.636 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.2 MB.
+System memory in use after: 72.8 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1966.
+Total: 3.268500 ms (FindLiveObjects: 0.112200 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.133900 ms  DeleteObjects: 1.989900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002273 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.627 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.3 MB.
+System memory in use after: 72.8 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1969.
+Total: 3.034800 ms (FindLiveObjects: 0.098700 ms CreateObjectMapping: 0.030900 ms MarkObjects: 1.045700 ms  DeleteObjects: 1.859000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002087 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.659 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 72.8 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1972.
+Total: 3.005900 ms (FindLiveObjects: 0.105800 ms CreateObjectMapping: 0.029300 ms MarkObjects: 1.042900 ms  DeleteObjects: 1.827100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002128 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.650 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.3 MB.
+System memory in use after: 72.8 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1975.
+Total: 3.270300 ms (FindLiveObjects: 0.127600 ms CreateObjectMapping: 0.031000 ms MarkObjects: 1.071000 ms  DeleteObjects: 2.039800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 11843.120719 seconds.
+  path: Assets/Rabbits/Demo/Animator/DemoAnimator.controller
+  artifactKey: Guid(8beaedaf7a4023642b48737ef7ee04b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rabbits/Demo/Animator/DemoAnimator.controller using Guid(8beaedaf7a4023642b48737ef7ee04b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d01dfca79ad3300c3726ae6a73db762') in 0.017497 seconds
+  Import took 0.019977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002598 seconds.
+  path: Assets/Rabbits/Demo/Animator/DemoAnimator.controller
+  artifactKey: Guid(8beaedaf7a4023642b48737ef7ee04b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rabbits/Demo/Animator/DemoAnimator.controller using Guid(8beaedaf7a4023642b48737ef7ee04b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d01dfca79ad3300c3726ae6a73db762') in 0.003103 seconds
+  Import took 0.005188 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002255 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.645 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 72.8 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1978.
+Total: 3.618300 ms (FindLiveObjects: 0.112800 ms CreateObjectMapping: 0.034400 ms MarkObjects: 1.098800 ms  DeleteObjects: 2.371600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002345 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.625 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 72.8 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1981.
+Total: 3.063900 ms (FindLiveObjects: 0.123600 ms CreateObjectMapping: 0.029700 ms MarkObjects: 1.035900 ms  DeleteObjects: 1.873500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1136.344778 seconds.
+  path: Assets/LowPolyFarmLite/LowPolyFarmLite_HDRP.unitypackage
+  artifactKey: Guid(be97bef901f1ebd4185c2df859103a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/LowPolyFarmLite_HDRP.unitypackage using Guid(be97bef901f1ebd4185c2df859103a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b2745e74327e14dbb2e919e52e1f5e') in 0.034059 seconds
+  Import took 0.036960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.896083 seconds.
+  path: Assets/LowPolyFarmLite/LowPolyFarmLite_LWRP.unitypackage
+  artifactKey: Guid(c540ef8e9c5426546b94fe5ebcdf87b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/LowPolyFarmLite_LWRP.unitypackage using Guid(c540ef8e9c5426546b94fe5ebcdf87b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6806d28ce5e5db9f114630463dd9a467') in 0.005501 seconds
+  Import took 0.007515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.614695 seconds.
+  path: Assets/LowPolyFarmLite/LowPolyFarmLite_URP.unitypackage
+  artifactKey: Guid(d615feb22ee21274bbe2b5c037bd9d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/LowPolyFarmLite_URP.unitypackage using Guid(d615feb22ee21274bbe2b5c037bd9d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382f4d8d807025f45192709b5915943c') in 0.005471 seconds
+  Import took 0.007353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.574556 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs
+  artifactKey: Guid(7861de420002c8a4fbe5df2a338397db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs using Guid(7861de420002c8a4fbe5df2a338397db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce0715d35b881f7fb46fcd659baf23b') in 0.004891 seconds
+  Import took 0.006791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055831 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Boy_Peasant_01_a.prefab
+  artifactKey: Guid(91652477daefd794bbfc1601d330e33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Boy_Peasant_01_a.prefab using Guid(91652477daefd794bbfc1601d330e33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30010b5c5465cace49f16ff1e4dc0781') in 0.084630 seconds
+  Import took 0.086994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Male_Peasant_01_a.prefab
+  artifactKey: Guid(43edc8596a56db542a8575316a9dcdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Male_Peasant_01_a.prefab using Guid(43edc8596a56db542a8575316a9dcdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785a471104db7ea8813ba8144ddd4a7f') in 0.022333 seconds
+  Import took 0.024667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Male_Peasant_01_e.prefab
+  artifactKey: Guid(7579ec7c669ef6143a8bbd425525f768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Male_Peasant_01_e.prefab using Guid(7579ec7c669ef6143a8bbd425525f768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127d5bf0283afe4658d58732d577842a') in 0.021240 seconds
+  Import took 0.023703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Male_Peasant_01_b.prefab
+  artifactKey: Guid(5c296df26581026428736e7a7c297dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Male_Peasant_01_b.prefab using Guid(5c296df26581026428736e7a7c297dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc533d8b3b66c55706dc3bab42f8fbd4') in 0.022788 seconds
+  Import took 0.025804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Male_Peasant_01_d.prefab
+  artifactKey: Guid(e8de7a054cfd06742b288dcf8e53913e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Male_Peasant_01_d.prefab using Guid(e8de7a054cfd06742b288dcf8e53913e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6572e40afc9336fdef44a0426f3d5a56') in 0.019346 seconds
+  Import took 0.021851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Female_Peasant_01_a.prefab
+  artifactKey: Guid(c416195f50044e445af759c093fa5f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Female_Peasant_01_a.prefab using Guid(c416195f50044e445af759c093fa5f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04c9374a5f49e7b137e09c5ef3ede0f') in 0.026099 seconds
+  Import took 0.030295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Boy_Peasant_01_b.prefab
+  artifactKey: Guid(dbd034399f0659c44a6b7e84c26e56db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Boy_Peasant_01_b.prefab using Guid(dbd034399f0659c44a6b7e84c26e56db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ed92d1b9f864fde8641607d62c322d') in 0.022655 seconds
+  Import took 0.025236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Female_Peasant_01_d.prefab
+  artifactKey: Guid(aa4b210df95efee4ba9f2025f398176d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Female_Peasant_01_d.prefab using Guid(aa4b210df95efee4ba9f2025f398176d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f0e18a707caafa9360089b14954838') in 0.027237 seconds
+  Import took 0.030193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Female_Peasant_01_c.prefab
+  artifactKey: Guid(21eda767807657e4396dc6ee8eb15cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Female_Peasant_01_c.prefab using Guid(21eda767807657e4396dc6ee8eb15cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767e1661ce4606a99209937b873e39ff') in 0.026983 seconds
+  Import took 0.030032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Female_Peasant_01_e.prefab
+  artifactKey: Guid(b710be7b9acb27b4690f17b39febdbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Female_Peasant_01_e.prefab using Guid(b710be7b9acb27b4690f17b39febdbb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5ceb8f8e3a1b5eab8cd0a32e2a1414') in 0.027732 seconds
+  Import took 0.031143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Boy_Peasant_01_d.prefab
+  artifactKey: Guid(f9485aedd97f16445a693fea83e9ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Boy_Peasant_01_d.prefab using Guid(f9485aedd97f16445a693fea83e9ff6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0626af77d1a4cf6946ee463dd81e2d0') in 0.023441 seconds
+  Import took 0.025991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Male_Peasant_01_c.prefab
+  artifactKey: Guid(be070de362a11c844bba893f13c36fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Male_Peasant_01_c.prefab using Guid(be070de362a11c844bba893f13c36fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd332a30dc25a23f292a67d8a1a8d803a') in 0.024834 seconds
+  Import took 0.028012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Boy_Peasant_01_c.prefab
+  artifactKey: Guid(f54ec0b4e2051db4ea6af4b27284e4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Boy_Peasant_01_c.prefab using Guid(f54ec0b4e2051db4ea6af4b27284e4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d30d7941ec5366b7e9fb8a8e30c18a') in 0.020360 seconds
+  Import took 0.022997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Boy_Peasant_01_e.prefab
+  artifactKey: Guid(76d8e7101074a5b48af010ad982f8f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Boy_Peasant_01_e.prefab using Guid(76d8e7101074a5b48af010ad982f8f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7dacf85a041eafeafa649b5e8e11e2c') in 0.019189 seconds
+  Import took 0.021697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Boy_Peasant_01_c.prefab
+  artifactKey: Guid(f54ec0b4e2051db4ea6af4b27284e4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Boy_Peasant_01_c.prefab using Guid(f54ec0b4e2051db4ea6af4b27284e4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d30d7941ec5366b7e9fb8a8e30c18a') in 0.009867 seconds
+  Import took 0.012156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Female_Peasant_01_b.prefab
+  artifactKey: Guid(ae7722435ea151a4d94ef563e7b07440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Prefabs/PT_Medieval_Female_Peasant_01_b.prefab using Guid(ae7722435ea151a4d94ef563e7b07440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6b61f96bd8df5f31c23d6626b813a9') in 0.020021 seconds
+  Import took 0.022251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.678975 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs
+  artifactKey: Guid(de6e676950f3759498883efd4debf43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs using Guid(de6e676950f3759498883efd4debf43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2866b7edb00d482230bebe6d23fa3ae') in 0.001925 seconds
+  Import took 0.004916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001040 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs
+  artifactKey: Guid(de6e676950f3759498883efd4debf43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs using Guid(de6e676950f3759498883efd4debf43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2866b7edb00d482230bebe6d23fa3ae') in 0.001996 seconds
+  Import took 0.004692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058128 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Club_01_a.prefab
+  artifactKey: Guid(d899e8694e33de045913544914a22216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Club_01_a.prefab using Guid(d899e8694e33de045913544914a22216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034836a6b94ea3f4821a019c62d735c4') in 0.026820 seconds
+  Import took 0.028842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Dagger_01_a.prefab
+  artifactKey: Guid(cdb7a497e7ed62243984bf81f2c19ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Dagger_01_a.prefab using Guid(cdb7a497e7ed62243984bf81f2c19ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06f1f26193cc8dde3928e9f5398bb66') in 0.020441 seconds
+  Import took 0.022526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Waraxe_01_a.prefab
+  artifactKey: Guid(59a51e492123cc34985ba1a0d212451a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Waraxe_01_a.prefab using Guid(59a51e492123cc34985ba1a0d212451a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a74b049371903c3e38ed173534a18b5') in 0.021230 seconds
+  Import took 0.023269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Dagger_01_a.prefab
+  artifactKey: Guid(cdb7a497e7ed62243984bf81f2c19ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Weapons/Prefabs/PT_Medieval_Dagger_01_a.prefab using Guid(cdb7a497e7ed62243984bf81f2c19ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06f1f26193cc8dde3928e9f5398bb66') in 0.005799 seconds
+  Import took 0.007920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.690330 seconds.
+  path: Assets/LowPolyFarmLite
+  artifactKey: Guid(15d3866f577807146ab13d2b239a06f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite using Guid(15d3866f577807146ab13d2b239a06f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adea6c459793f54377695c9cd37ed3a5') in 0.005884 seconds
+  Import took 0.007787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.175383 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources
+  artifactKey: Guid(ccd4734fc832a55438dc9ea3f771eb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources using Guid(ccd4734fc832a55438dc9ea3f771eb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e694e3c1839de9b54706b005463e02ec') in 0.004697 seconds
+  Import took 0.006831 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002199 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.677 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 90.3 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1993.
+Total: 3.706900 ms (FindLiveObjects: 0.184900 ms CreateObjectMapping: 0.048300 ms MarkObjects: 1.588100 ms  DeleteObjects: 1.884200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 188.136805 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs
+  artifactKey: Guid(521b611700410be45810047f0a74e899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs using Guid(521b611700410be45810047f0a74e899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a700ae3f939a282ed49e15e8d5584744') in 0.006620 seconds
+  Import took 0.008721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.745698 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts
+  artifactKey: Guid(3ee9c33ffee000840b0fed14ec400bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts using Guid(3ee9c33ffee000840b0fed14ec400bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0939be9ee0ffbb2138fbc8b65ec77c77') in 0.004808 seconds
+  Import took 0.007157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.876744 seconds.
+  path: Assets/Bunnies/Prefabs/Player.prefab
+  artifactKey: Guid(abb928b0033254b4e99e4f1a5f71298b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bunnies/Prefabs/Player.prefab using Guid(abb928b0033254b4e99e4f1a5f71298b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41854a0e18ce6045800189b823f4d4ba') in 0.081350 seconds
+  Import took 0.084020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.666060 seconds.
+  path: Assets/Bunnies/Scripts/AI.cs
+  artifactKey: Guid(8d52f7633ee7caa43ad067a52301ffcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bunnies/Scripts/AI.cs using Guid(8d52f7633ee7caa43ad067a52301ffcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaac42010761af3f5fa328d6afe6baf8') in 0.005104 seconds
+  Import took 0.007212 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002465 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.806 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 90.4 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1998.
+Total: 3.085600 ms (FindLiveObjects: 0.112600 ms CreateObjectMapping: 0.031600 ms MarkObjects: 1.081800 ms  DeleteObjects: 1.858900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003355 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.635 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
+System memory in use after: 90.4 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2001.
+Total: 3.831800 ms (FindLiveObjects: 0.215300 ms CreateObjectMapping: 0.050700 ms MarkObjects: 1.499900 ms  DeleteObjects: 2.064600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.481987 seconds.
+  path: Assets/Bunnies/Scripts/AI.cs
+  artifactKey: Guid(8d52f7633ee7caa43ad067a52301ffcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bunnies/Scripts/AI.cs using Guid(8d52f7633ee7caa43ad067a52301ffcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74559770ab4aea26e5c04de3170d71a6') in 0.004349 seconds
+  Import took 0.006491 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002303 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.663 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
+System memory in use after: 90.4 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2004.
+Total: 3.245600 ms (FindLiveObjects: 0.114800 ms CreateObjectMapping: 0.038400 ms MarkObjects: 1.050000 ms  DeleteObjects: 2.041700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.748855 seconds.
+  path: Assets/Bunnies/Scripts/AI.cs
+  artifactKey: Guid(8d52f7633ee7caa43ad067a52301ffcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bunnies/Scripts/AI.cs using Guid(8d52f7633ee7caa43ad067a52301ffcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa6abdea38cf3c344fd6d9e4c12750c') in 0.003203 seconds
+  Import took 0.004959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.106190 seconds.
+  path: Assets/Bunnies/Scripts/GameManager.cs
+  artifactKey: Guid(ac6d7293f289db449b3e98f2d7b67f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bunnies/Scripts/GameManager.cs using Guid(ac6d7293f289db449b3e98f2d7b67f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5bf068e4719792141e5809351a8a4b') in 0.007157 seconds
+  Import took 0.009749 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002076 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.724 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 90.4 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2008.
+Total: 3.249200 ms (FindLiveObjects: 0.107700 ms CreateObjectMapping: 0.025200 ms MarkObjects: 1.054900 ms  DeleteObjects: 2.060600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002282 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.722 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.7 MB.
+System memory in use after: 90.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2011.
+Total: 3.943200 ms (FindLiveObjects: 0.363700 ms CreateObjectMapping: 0.040700 ms MarkObjects: 1.452800 ms  DeleteObjects: 2.083800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002192 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.667 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 90.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2014.
+Total: 3.209400 ms (FindLiveObjects: 0.108200 ms CreateObjectMapping: 0.030400 ms MarkObjects: 1.072600 ms  DeleteObjects: 1.997500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002565 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.670 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 90.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2017.
+Total: 3.232100 ms (FindLiveObjects: 0.122200 ms CreateObjectMapping: 0.035300 ms MarkObjects: 1.060500 ms  DeleteObjects: 2.013300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002038 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.633 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 90.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2020.
+Total: 5.482700 ms (FindLiveObjects: 0.273500 ms CreateObjectMapping: 0.076300 ms MarkObjects: 1.907600 ms  DeleteObjects: 3.222200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 362.959137 seconds.
+  path: Assets/Bunnies/Animations
+  artifactKey: Guid(30a34fd38cef8e0428c4f53ca7b301b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bunnies/Animations using Guid(30a34fd38cef8e0428c4f53ca7b301b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d83538ba29d6049543d84dc71e6c59c') in 0.009620 seconds
+  Import took 0.011940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.089117 seconds.
+  path: Assets/Bunnies/Animations/AI Animator Controller.controller
+  artifactKey: Guid(f5ff737aa9ad23b46a5e73007a32856b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bunnies/Animations/AI Animator Controller.controller using Guid(f5ff737aa9ad23b46a5e73007a32856b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472d024e5a1fa999152d482aba7ef34c') in 0.022176 seconds
+  Import took 0.024877 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002494 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.632 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 90.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2023.
+Total: 3.154400 ms (FindLiveObjects: 0.106200 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.083500 ms  DeleteObjects: 1.932600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.990751 seconds.
+  path: Assets/Bunnies/Animations/AI Animator Controller.controller
+  artifactKey: Guid(f5ff737aa9ad23b46a5e73007a32856b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bunnies/Animations/AI Animator Controller.controller using Guid(f5ff737aa9ad23b46a5e73007a32856b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91d2589087da97435116c042b5891cd') in 0.009863 seconds
+  Import took 0.011770 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002535 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.665 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 90.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2026.
+Total: 3.245900 ms (FindLiveObjects: 0.106700 ms CreateObjectMapping: 0.029800 ms MarkObjects: 1.095700 ms  DeleteObjects: 2.012900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.409611 seconds.
+  path: Assets/Bunnies/Prefabs/AI.prefab
+  artifactKey: Guid(95602d9f1d80ed04dbb4829783bb1858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bunnies/Prefabs/AI.prefab using Guid(95602d9f1d80ed04dbb4829783bb1858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b676835dc3b6a91dcd3c613745b1dc18') in 0.047554 seconds
+  Import took 0.050106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003210 seconds.
+  path: Assets/Bunnies/Prefabs/AI.prefab
+  artifactKey: Guid(95602d9f1d80ed04dbb4829783bb1858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bunnies/Prefabs/AI.prefab using Guid(95602d9f1d80ed04dbb4829783bb1858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b676835dc3b6a91dcd3c613745b1dc18') in 0.011928 seconds
+  Import took 0.015016 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002144 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.731 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 90.5 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2030.
+Total: 3.216100 ms (FindLiveObjects: 0.130400 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.064900 ms  DeleteObjects: 1.987400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.963382 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Boy_Peasant_01_a.fbx
+  artifactKey: Guid(7af35471eb46bf64c9f7076debf48a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Boy_Peasant_01_a.fbx using Guid(7af35471eb46bf64c9f7076debf48a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f11caf586a09cc15f12eddd326e75e') in 0.119103 seconds
+  Import took 0.122278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Female_Peasant_01_a.fbx
+  artifactKey: Guid(055c24443b00f5b488fd067eda9af3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Female_Peasant_01_a.fbx using Guid(055c24443b00f5b488fd067eda9af3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5114a72e3a26b23ced1797162d86fb5') in 0.031089 seconds
+  Import took 0.033798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Boy_Peasant_01_e.fbx
+  artifactKey: Guid(648c899db20d799438d5f69cfbabd1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Boy_Peasant_01_e.fbx using Guid(648c899db20d799438d5f69cfbabd1fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c914ddab5bbb2e5f494072f319ac8f57') in 0.048566 seconds
+  Import took 0.050769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Female_Peasant_01_e.fbx
+  artifactKey: Guid(5eefde26096a58a4081cddee89485a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Female_Peasant_01_e.fbx using Guid(5eefde26096a58a4081cddee89485a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96dd3a0e6bd0352bbe58717ffcdf4ca2') in 0.043637 seconds
+  Import took 0.046555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Male_Peasant_01_b.fbx
+  artifactKey: Guid(e7b875c58d6ddc14abafb18a7197d23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Male_Peasant_01_b.fbx using Guid(e7b875c58d6ddc14abafb18a7197d23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da319804e5307b99add277a6d1516666') in 0.046991 seconds
+  Import took 0.050374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Male_Peasant_01_a.fbx
+  artifactKey: Guid(8f7b486e869602c4f8d1952798f2adba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Male_Peasant_01_a.fbx using Guid(8f7b486e869602c4f8d1952798f2adba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619f06eb0835045a05858a340fb05187') in 0.048651 seconds
+  Import took 0.052039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Female_Peasant_01_c.fbx
+  artifactKey: Guid(be98679631e300549bf11d88ed40176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Female_Peasant_01_c.fbx using Guid(be98679631e300549bf11d88ed40176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612fd1d696e09fc4d6d6ad97769bf7b4') in 0.043234 seconds
+  Import took 0.046310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Male_Peasant_01_d.fbx
+  artifactKey: Guid(91eb76a4a89d0f6439f2bf471b8e4e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Male_Peasant_01_d.fbx using Guid(91eb76a4a89d0f6439f2bf471b8e4e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9004fc818ad95a148eb4f07e7d4516') in 0.041099 seconds
+  Import took 0.043589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Boy_Peasant_01_d.fbx
+  artifactKey: Guid(d8d466c9685c1f247aa2950863f3b1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Boy_Peasant_01_d.fbx using Guid(d8d466c9685c1f247aa2950863f3b1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c2b9bf19c8dad62e803d2eed81b816') in 0.023328 seconds
+  Import took 0.025657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Boy_Peasant_01_b.fbx
+  artifactKey: Guid(17fe63ba47ffd3d4389ab7fa5934f7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Boy_Peasant_01_b.fbx using Guid(17fe63ba47ffd3d4389ab7fa5934f7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c500c0d328cae96af517e9d1e9c51eb8') in 0.023960 seconds
+  Import took 0.027133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Boy_Peasant_01_c.fbx
+  artifactKey: Guid(5efe8f31d1f240a43a6984e8f6e189bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Boy_Peasant_01_c.fbx using Guid(5efe8f31d1f240a43a6984e8f6e189bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76705408a598c65d561018ba42c08d3e') in 0.023968 seconds
+  Import took 0.026760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Male_Peasant_01_e.fbx
+  artifactKey: Guid(4be7eb2d173f39945b561cf3f5055ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Male_Peasant_01_e.fbx using Guid(4be7eb2d173f39945b561cf3f5055ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd332a383c6414e50bd115cf2f213b5a') in 0.021832 seconds
+  Import took 0.024304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Female_Peasant_01_b.fbx
+  artifactKey: Guid(f55db3dd3267fbe478789819bf31a7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Female_Peasant_01_b.fbx using Guid(f55db3dd3267fbe478789819bf31a7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ef8e64070885a3254302878fe4ee9e') in 0.022892 seconds
+  Import took 0.025232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Male_Peasant_01_c.fbx
+  artifactKey: Guid(e088ab92be56846498f259153ce22ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Male_Peasant_01_c.fbx using Guid(e088ab92be56846498f259153ce22ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e0a883dd1b464e0f966b563880cc5b') in 0.023439 seconds
+  Import took 0.025712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Female_Peasant_01_d.fbx
+  artifactKey: Guid(15e10c91385e8ab4385a920bb1fd471e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Meshes/PT_Medieval_Female_Peasant_01_d.fbx using Guid(15e10c91385e8ab4385a920bb1fd471e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9546665d30fb927b4a488692ec149f53') in 0.033168 seconds
+  Import took 0.035631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.691037 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations
+  artifactKey: Guid(733e960621c8f3a40874e28203579d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations using Guid(733e960621c8f3a40874e28203579d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e53dddfcb6b7fc8d8dc84e97ab36e8d') in 0.001570 seconds
+  Import took 0.003681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000768 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations
+  artifactKey: Guid(733e960621c8f3a40874e28203579d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations using Guid(733e960621c8f3a40874e28203579d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e53dddfcb6b7fc8d8dc84e97ab36e8d') in 0.001966 seconds
+  Import took 0.003880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060122 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/PT_Medieval_Peasant_Pose_02.fbx
+  artifactKey: Guid(ab9be37bf134f2d419e7325e85453dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/PT_Medieval_Peasant_Pose_02.fbx using Guid(ab9be37bf134f2d419e7325e85453dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219fb4609628726c6a550dad70437364') in 0.056256 seconds
+  Import took 0.059541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.150851 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/Anim_controllers
+  artifactKey: Guid(4b56d4fa0ed597a4ca3ec42d8d4e451a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/Anim_controllers using Guid(4b56d4fa0ed597a4ca3ec42d8d4e451a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e74b95692c5196fa1db22265bf89068') in 0.005271 seconds
+  Import took 0.007280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.115188 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/Anim_controllers/PT_Medieval_Peasant_01_a_Animator Controller.controller
+  artifactKey: Guid(2d2d3e7e191224547885f234ae96e1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/Anim_controllers/PT_Medieval_Peasant_01_a_Animator Controller.controller using Guid(2d2d3e7e191224547885f234ae96e1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fa779d9891fde27991a6b07f0b4a64') in 0.007802 seconds
+  Import took 0.010718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.124671 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/Anim_controllers/PT_Medieval_Male_Peasant_01_a_Animator Controller.controller
+  artifactKey: Guid(087c8a3cd33baa44caec2489189dcc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/Anim_controllers/PT_Medieval_Male_Peasant_01_a_Animator Controller.controller using Guid(087c8a3cd33baa44caec2489189dcc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdd54903750ab5d916b4795e7a6aa16') in 0.006148 seconds
+  Import took 0.008345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.309477 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/Anim_controllers/PT_Medieval_Female_Peasant_01_Animator Controller.controller
+  artifactKey: Guid(3244fa875fe4385468bc1782ada67391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/Anim_controllers/PT_Medieval_Female_Peasant_01_Animator Controller.controller using Guid(3244fa875fe4385468bc1782ada67391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c1037948efa692d69de7b8e7c58a50') in 0.007170 seconds
+  Import took 0.009914 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002819 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.673 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 91.6 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2070.
+Total: 3.135800 ms (FindLiveObjects: 0.108100 ms CreateObjectMapping: 0.025900 ms MarkObjects: 1.071400 ms  DeleteObjects: 1.929600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 376.099104 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/AnimationControllers
+  artifactKey: Guid(2772e80ca8ca2eb438c6fad54e343aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/AnimationControllers using Guid(2772e80ca8ca2eb438c6fad54e343aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118a4c1a46c9f8776a59b6e3b41430ed') in 0.008220 seconds
+  Import took 0.010542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.914567 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations
+  artifactKey: Guid(7eb11f9df068c2b45bc52cfc0d6e3f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations using Guid(7eb11f9df068c2b45bc52cfc0d6e3f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64db3196c89a4c0679f4d08a0d41deb') in 0.002310 seconds
+  Import took 0.005290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations
+  artifactKey: Guid(7eb11f9df068c2b45bc52cfc0d6e3f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations using Guid(7eb11f9df068c2b45bc52cfc0d6e3f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64db3196c89a4c0679f4d08a0d41deb') in 0.002530 seconds
+  Import took 0.005954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.230845 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Idles
+  artifactKey: Guid(99b531c8964d97245a8f67495e2a1a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Idles using Guid(99b531c8964d97245a8f67495e2a1a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb614fcbdc851d950ae5b7bde250f6b') in 0.008559 seconds
+  Import took 0.011652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.448137 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement
+  artifactKey: Guid(162d3c986ae81044b8e9de5caae05de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement using Guid(162d3c986ae81044b8e9de5caae05de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe79483b141b36c9b5f071b58c47bf6') in 0.005241 seconds
+  Import took 0.007164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076758 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Jump01.fbx
+  artifactKey: Guid(067cc188e25b78b4a940a9fa67cd6ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Jump01.fbx using Guid(067cc188e25b78b4a940a9fa67cd6ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f75ba9b57c0f473864a774180b58fc') in 0.023507 seconds
+  Import took 0.025823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01 [RM].fbx
+  artifactKey: Guid(bd1c2e9064da28e4fb0fe4a3f6ff4e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01 [RM].fbx using Guid(bd1c2e9064da28e4fb0fe4a3f6ff4e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d9da5b458a011f11c02aa7ece38934') in 0.009574 seconds
+  Import took 0.012082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01.fbx
+  artifactKey: Guid(0536f044bd409ff419dd726bc69d2676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01.fbx using Guid(0536f044bd409ff419dd726bc69d2676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86488b90d1b54873d40c1fc2e611d6c4') in 0.009747 seconds
+  Import took 0.013105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01 [RM].fbx
+  artifactKey: Guid(154a724602422044c91070a5f3c67c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01 [RM].fbx using Guid(154a724602422044c91070a5f3c67c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6b0386916abdf001adb855ee486726') in 0.009347 seconds
+  Import took 0.011873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Sprint01 [RM].fbx
+  artifactKey: Guid(7eebd174ff53112419b27f9d903573d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Sprint01 [RM].fbx using Guid(7eebd174ff53112419b27f9d903573d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1403cfdfb4c5e77f85c5a6678a73ca1a') in 0.009080 seconds
+  Import took 0.011618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Sprint01.fbx
+  artifactKey: Guid(98d8219075968bd43b75fdba6b4463d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Sprint01.fbx using Guid(98d8219075968bd43b75fdba6b4463d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f83dc6b7d3db4e23783139974d267f8') in 0.008659 seconds
+  Import took 0.011559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01.fbx
+  artifactKey: Guid(46d5b47e60163f148ada32ff97c7aa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01.fbx using Guid(46d5b47e60163f148ada32ff97c7aa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e5a931235fafe568a75a7a038625b6') in 0.009742 seconds
+  Import took 0.012405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.678028 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle01.fbx
+  artifactKey: Guid(a3422ad278cd9a94aa3da8e6bff9deea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle01.fbx using Guid(a3422ad278cd9a94aa3da8e6bff9deea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c84fced21dffb83e17f503288e903c') in 0.007791 seconds
+  Import took 0.010150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle02.fbx
+  artifactKey: Guid(69d59c13a83a7c74a8cc0607ded391ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle02.fbx using Guid(69d59c13a83a7c74a8cc0607ded391ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1af22ff13aa1f7a2cf645308afeb11') in 0.008283 seconds
+  Import took 0.010556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.202243 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/Anim_controllers/PT_Medieval_Male_Peasant_01_a_Animator Controller.controller
+  artifactKey: Guid(087c8a3cd33baa44caec2489189dcc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/Anim_controllers/PT_Medieval_Male_Peasant_01_a_Animator Controller.controller using Guid(087c8a3cd33baa44caec2489189dcc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80fbb76af2f2dfc33d7234b8be28bd6') in 0.003253 seconds
+  Import took 0.006360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003262 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/Anim_controllers/PT_Medieval_Male_Peasant_01_a_Animator Controller.controller
+  artifactKey: Guid(087c8a3cd33baa44caec2489189dcc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/Anim_controllers/PT_Medieval_Male_Peasant_01_a_Animator Controller.controller using Guid(087c8a3cd33baa44caec2489189dcc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80fbb76af2f2dfc33d7234b8be28bd6') in 0.002341 seconds
+  Import took 0.004515 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002080 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.654 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 91.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2073.
+Total: 3.763300 ms (FindLiveObjects: 0.117200 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.151300 ms  DeleteObjects: 2.461500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.580534 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/Anim_controllers/PT_Medieval_Male_Peasant_01_a_Animator Controller.controller
+  artifactKey: Guid(087c8a3cd33baa44caec2489189dcc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/Anim_controllers/PT_Medieval_Male_Peasant_01_a_Animator Controller.controller using Guid(087c8a3cd33baa44caec2489189dcc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792824783c505196f87396466bf630bf') in 0.011867 seconds
+  Import took 0.014119 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002377 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.672 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.2 MB.
+System memory in use after: 91.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2076.
+Total: 4.032200 ms (FindLiveObjects: 0.130600 ms CreateObjectMapping: 0.037400 ms MarkObjects: 1.569900 ms  DeleteObjects: 2.293200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002350 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.670 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 91.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2079.
+Total: 3.422500 ms (FindLiveObjects: 0.117100 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.162900 ms  DeleteObjects: 2.099500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.395460 seconds.
+  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/Anim_controllers/PT_Medieval_Male_Peasant_01_a_Animator Controller.controller
+  artifactKey: Guid(087c8a3cd33baa44caec2489189dcc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/Anim_controllers/PT_Medieval_Male_Peasant_01_a_Animator Controller.controller using Guid(087c8a3cd33baa44caec2489189dcc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f3a425362e1d3ad1f21f0dd3532e7d') in 0.011537 seconds
+  Import took 0.013758 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002401 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.627 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 91.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2082.
+Total: 4.650700 ms (FindLiveObjects: 0.248300 ms CreateObjectMapping: 0.066200 ms MarkObjects: 1.629900 ms  DeleteObjects: 2.704600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002639 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.625 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 91.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2085.
+Total: 3.135900 ms (FindLiveObjects: 0.110600 ms CreateObjectMapping: 0.030700 ms MarkObjects: 1.058200 ms  DeleteObjects: 1.935600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 217.448029 seconds.
+  path: Assets/LowPolyFarmLite_URP/Prefabs
+  artifactKey: Guid(2c1d683bd08bd8a4bb1c3c6496009f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Prefabs using Guid(2c1d683bd08bd8a4bb1c3c6496009f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181362a6d5df32fda5f853a6887ddee5') in 0.003761 seconds
+  Import took 0.006019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059102 seconds.
+  path: Assets/LowPolyFarmLite_URP/Prefabs/Box_01.prefab
+  artifactKey: Guid(d26dc1241d332c342b898a57f1164932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Prefabs/Box_01.prefab using Guid(d26dc1241d332c342b898a57f1164932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5299b8f221865de3b7eace02a3d53e') in 0.038372 seconds
+  Import took 0.040405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/LowPolyFarmLite_URP/Prefabs/TomatoPlant_01.prefab
+  artifactKey: Guid(78da2ace1ab76ce478600ebe37fa10fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Prefabs/TomatoPlant_01.prefab using Guid(78da2ace1ab76ce478600ebe37fa10fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd062a0ddc77e3a9da4e8fb8036dd936d') in 0.011956 seconds
+  Import took 0.014378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/LowPolyFarmLite_URP/Prefabs/Cabbage_01.prefab
+  artifactKey: Guid(aec8969d0290c6d4cbc587ef85a01ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Prefabs/Cabbage_01.prefab using Guid(aec8969d0290c6d4cbc587ef85a01ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33885d3096048d7bd4d4a6eef03fe5c') in 0.009948 seconds
+  Import took 0.012235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/LowPolyFarmLite_URP/Prefabs/Fence_01.prefab
+  artifactKey: Guid(cb422acdc199d6e42910f589b81c283b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Prefabs/Fence_01.prefab using Guid(cb422acdc199d6e42910f589b81c283b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e5a291599aa894dd668cfa1b595ab7') in 0.008923 seconds
+  Import took 0.011149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/LowPolyFarmLite_URP/Prefabs/Tree_04.prefab
+  artifactKey: Guid(bae468b3a6b9ea141967f3cfbe601352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Prefabs/Tree_04.prefab using Guid(bae468b3a6b9ea141967f3cfbe601352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c546e90f4770f8365ad2b20a74a982') in 0.008993 seconds
+  Import took 0.011158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/LowPolyFarmLite_URP/Prefabs/Grass_02.prefab
+  artifactKey: Guid(81dad7d5552c9a341b390c79338fe0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Prefabs/Grass_02.prefab using Guid(81dad7d5552c9a341b390c79338fe0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7133fc9f6c61fb84a3369e191a890321') in 0.008560 seconds
+  Import took 0.010555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/LowPolyFarmLite_URP/Prefabs/Rock_04.prefab
+  artifactKey: Guid(748ca274b89873247873cee26d353629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Prefabs/Rock_04.prefab using Guid(748ca274b89873247873cee26d353629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bb23e99734af0da3ea3620d7b2800b') in 0.008432 seconds
+  Import took 0.010520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/LowPolyFarmLite_URP/Prefabs/Terrain_01.prefab
+  artifactKey: Guid(7ddfa3a1d18174043aab251be6df3a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Prefabs/Terrain_01.prefab using Guid(7ddfa3a1d18174043aab251be6df3a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fc91c2443c27010497f2de19e3bb45') in 0.008694 seconds
+  Import took 0.010813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/LowPolyFarmLite_URP/Prefabs/Mud_01.prefab
+  artifactKey: Guid(c4fa87cd4eff4ae4ba4c8d1ad48df5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Prefabs/Mud_01.prefab using Guid(c4fa87cd4eff4ae4ba4c8d1ad48df5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f704f32c6f8626efc337d66680eb4ae') in 0.008437 seconds
+  Import took 0.010441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/LowPolyFarmLite_URP/Prefabs/Tomato_03.prefab
+  artifactKey: Guid(fd8e0760db14a534a89257f68a4f2a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Prefabs/Tomato_03.prefab using Guid(fd8e0760db14a534a89257f68a4f2a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95c77ce603954bbc608ea3411cd8856') in 0.009924 seconds
+  Import took 0.012109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/LowPolyFarmLite_URP/Prefabs/WateringCan_01.prefab
+  artifactKey: Guid(8877f4aac7d3c184ea4954647487e084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Prefabs/WateringCan_01.prefab using Guid(8877f4aac7d3c184ea4954647487e084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d266c05e8ac9f0a9fceed36d174b62f') in 0.008448 seconds
+  Import took 0.010504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.491171 seconds.
+  path: Assets/LowPolyFarmLite_URP/Models
+  artifactKey: Guid(f2b0f3a6eb99b41409350fabfd873296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Models using Guid(f2b0f3a6eb99b41409350fabfd873296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045c4022e808f8eef35f8bd69158d683') in 0.005928 seconds
+  Import took 0.007853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052341 seconds.
+  path: Assets/LowPolyFarmLite_URP/Models/Box_01.fbx
+  artifactKey: Guid(ff53e1a687da3e94aad8ba03f54ffac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Models/Box_01.fbx using Guid(ff53e1a687da3e94aad8ba03f54ffac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665a16fab9b11faff1c8fa27f2fd8049') in 0.021910 seconds
+  Import took 0.023794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/LowPolyFarmLite_URP/Models/TomatoPlant_01.fbx
+  artifactKey: Guid(88133688ce354be4c85e1c167e475c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Models/TomatoPlant_01.fbx using Guid(88133688ce354be4c85e1c167e475c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4608ebe8a337b2d9ee34beee407bb2') in 0.011886 seconds
+  Import took 0.013833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/LowPolyFarmLite_URP/Models/Tree_04.fbx
+  artifactKey: Guid(1a2e91ebc86d2c84ca817eb30abe86d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Models/Tree_04.fbx using Guid(1a2e91ebc86d2c84ca817eb30abe86d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924b391ab081d5ad9ac7216415bcd500') in 0.023352 seconds
+  Import took 0.025502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/LowPolyFarmLite_URP/Models/Fence_01.fbx
+  artifactKey: Guid(19691f6aa755db9428322cf11b5b1ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Models/Fence_01.fbx using Guid(19691f6aa755db9428322cf11b5b1ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e0b7b7225cfc8dabebb460eef80f85') in 0.013509 seconds
+  Import took 0.015653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/LowPolyFarmLite_URP/Models/Cabbage_01.fbx
+  artifactKey: Guid(0f50786d35eebcf44805f9d5fb326c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Models/Cabbage_01.fbx using Guid(0f50786d35eebcf44805f9d5fb326c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9fe3f17d279c5f9c6b9d96a3758078') in 0.019569 seconds
+  Import took 0.022036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/LowPolyFarmLite_URP/Models/Grass_02.fbx
+  artifactKey: Guid(fc007040ddf56d841ad2083f918a0924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Models/Grass_02.fbx using Guid(fc007040ddf56d841ad2083f918a0924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b33cf890c492d3c591b661ff0e6b83') in 0.024884 seconds
+  Import took 0.028797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/LowPolyFarmLite_URP/Models/Terrain_01.fbx
+  artifactKey: Guid(593fb94d50cebfc42887e62a057c01fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Models/Terrain_01.fbx using Guid(593fb94d50cebfc42887e62a057c01fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8421aded8762f632f5da5218c8786c') in 0.017660 seconds
+  Import took 0.020725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/LowPolyFarmLite_URP/Models/Rock_04.fbx
+  artifactKey: Guid(682bef71ca092ef49bfed7f1cef5b893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Models/Rock_04.fbx using Guid(682bef71ca092ef49bfed7f1cef5b893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4e21edfbf6327d2024802dfeee2715') in 0.029129 seconds
+  Import took 0.032342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/LowPolyFarmLite_URP/Models/Mud_01.fbx
+  artifactKey: Guid(aaff327437b0be14f9c6d1be9b411708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Models/Mud_01.fbx using Guid(aaff327437b0be14f9c6d1be9b411708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98167bf40bc4d55b5897e062c7ba2363') in 0.015286 seconds
+  Import took 0.018638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/LowPolyFarmLite_URP/Models/WateringCan_01.fbx
+  artifactKey: Guid(1311afae6eeeaa84fbfa2d81fcaf9a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Models/WateringCan_01.fbx using Guid(1311afae6eeeaa84fbfa2d81fcaf9a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72865d789c20f5e1c0f1d6a830c6223') in 0.015777 seconds
+  Import took 0.018398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/LowPolyFarmLite_URP/Models/Tomato_03.fbx
+  artifactKey: Guid(b7cf12fb849f2ce4592a36e9c9c8d4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Models/Tomato_03.fbx using Guid(b7cf12fb849f2ce4592a36e9c9c8d4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c90dfafb1b4bdd09e7c9b4918d3e0a9') in 0.016923 seconds
+  Import took 0.019923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.836625 seconds.
+  path: Assets/LowPolyFarmLite_URP/Scenes
+  artifactKey: Guid(a8ca82e7a3f46d04db5b1c44ce6e5562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Scenes using Guid(a8ca82e7a3f46d04db5b1c44ce6e5562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e796bc36780628d137a9f901436894') in 0.006681 seconds
+  Import took 0.008975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.894848 seconds.
+  path: Assets/LowPolyFarmLite_HDRP/Prefabs/Cabbage_01.prefab
+  artifactKey: Guid(aec8969d0290c6d4cbc587ef85a01ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_HDRP/Prefabs/Cabbage_01.prefab using Guid(aec8969d0290c6d4cbc587ef85a01ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90d13d2a06c51553af9ec31352dfa75') in 0.008664 seconds
+  Import took 0.012097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/LowPolyFarmLite_HDRP/Prefabs/TomatoPlant_01.prefab
+  artifactKey: Guid(78da2ace1ab76ce478600ebe37fa10fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_HDRP/Prefabs/TomatoPlant_01.prefab using Guid(78da2ace1ab76ce478600ebe37fa10fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0298539926a494bc791b2f62e6cf8d') in 0.012579 seconds
+  Import took 0.015825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/LowPolyFarmLite_HDRP/Prefabs/Tree_04.prefab
+  artifactKey: Guid(bae468b3a6b9ea141967f3cfbe601352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_HDRP/Prefabs/Tree_04.prefab using Guid(bae468b3a6b9ea141967f3cfbe601352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7349d18a31e352e2e50c728d8d4bb8b9') in 0.010770 seconds
+  Import took 0.014163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/LowPolyFarmLite_HDRP/Prefabs/Grass_02.prefab
+  artifactKey: Guid(81dad7d5552c9a341b390c79338fe0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_HDRP/Prefabs/Grass_02.prefab using Guid(81dad7d5552c9a341b390c79338fe0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0c342436c1c9eb3646d00094dc426e') in 0.012647 seconds
+  Import took 0.015437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/LowPolyFarmLite_HDRP/Prefabs/WateringCan_01.prefab
+  artifactKey: Guid(8877f4aac7d3c184ea4954647487e084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_HDRP/Prefabs/WateringCan_01.prefab using Guid(8877f4aac7d3c184ea4954647487e084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1222c792fdbc4522af5096b1305243e') in 0.007336 seconds
+  Import took 0.010324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/LowPolyFarmLite_HDRP/Prefabs/Tree_04.prefab
+  artifactKey: Guid(bae468b3a6b9ea141967f3cfbe601352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_HDRP/Prefabs/Tree_04.prefab using Guid(bae468b3a6b9ea141967f3cfbe601352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7349d18a31e352e2e50c728d8d4bb8b9') in 0.007217 seconds
+  Import took 0.010458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003774 seconds.
+  path: Assets/LowPolyFarmLite_HDRP/Prefabs/WateringCan_01.prefab
+  artifactKey: Guid(8877f4aac7d3c184ea4954647487e084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_HDRP/Prefabs/WateringCan_01.prefab using Guid(8877f4aac7d3c184ea4954647487e084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1222c792fdbc4522af5096b1305243e') in 0.007295 seconds
+  Import took 0.011062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.131869 seconds.
+  path: Assets/LowPolyFarmLite_URP/Scenes/PostProcessing
+  artifactKey: Guid(e09e05df33381d74bb98a54403e909e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Scenes/PostProcessing using Guid(e09e05df33381d74bb98a54403e909e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1cde8cf4678d6cd76848c4a06127129') in 0.005132 seconds
+  Import took 0.007634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.931934 seconds.
+  path: Assets/LowPolyFarmLite_URP/Scenes/PostProcessing/LowPolyFarmLite_Forward.asset
+  artifactKey: Guid(882d67a3e133d4341b8d3bdb546f0476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Scenes/PostProcessing/LowPolyFarmLite_Forward.asset using Guid(882d67a3e133d4341b8d3bdb546f0476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a27927b773ec2d40bb98cc696489768') in 0.006276 seconds
+  Import took 0.008321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/LowPolyFarmLite_URP/Scenes/PostProcessing/PostProcessing_LowPolyFarmLite.asset
+  artifactKey: Guid(d04f012eb4eed0c4da8d9917c8c5cf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Scenes/PostProcessing/PostProcessing_LowPolyFarmLite.asset using Guid(d04f012eb4eed0c4da8d9917c8c5cf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd35d138614df766c4ae0109fbd0133') in 0.005213 seconds
+  Import took 0.007400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/LowPolyFarmLite_URP/Scenes/PostProcessing/LowPolyFarmLite_URP.asset
+  artifactKey: Guid(7098fcbb9094d0e41b36576bb3adf90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Scenes/PostProcessing/LowPolyFarmLite_URP.asset using Guid(7098fcbb9094d0e41b36576bb3adf90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60c91fdebbd290c20f5a58447afc6f9') in 0.005163 seconds
+  Import took 0.007740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.144409 seconds.
+  path: Assets/LowPolyFarmLite_URP/Textures/LowPolyFarmLite_Texture_01.png
+  artifactKey: Guid(7bc9a4bafdf20d7409ec5c6155c56f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Textures/LowPolyFarmLite_Texture_01.png using Guid(7bc9a4bafdf20d7409ec5c6155c56f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e399ffe484fd3af2bade2b91dfcaaaf') in 0.020626 seconds
+  Import took 0.022994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.024245 seconds.
+  path: Assets/LowPolyFarmLite_URP/Materials/LowPolyFarmLite_MAIN.mat
+  artifactKey: Guid(382e2b1b7fbf94945963320a17603c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite_URP/Materials/LowPolyFarmLite_MAIN.mat using Guid(382e2b1b7fbf94945963320a17603c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310f10357980e57d7f3813cb6ea19982') in 0.020778 seconds
+  Import took 0.023246 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002496 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.664 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 91.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2090.
+Total: 3.274100 ms (FindLiveObjects: 0.140200 ms CreateObjectMapping: 0.033100 ms MarkObjects: 1.092500 ms  DeleteObjects: 2.007600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1955.053023 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Carrot_Fruit.mat
+  artifactKey: Guid(89de6558677c5e641bb66722cb40672a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Carrot_Fruit.mat using Guid(89de6558677c5e641bb66722cb40672a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c105f92513b76f7c2a088f770121cfa') in 0.118285 seconds
+  Import took 0.120901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Dirt_Pile.mat
+  artifactKey: Guid(1b6ad9e6ace69c2448dda1ea645d4556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Dirt_Pile.mat using Guid(1b6ad9e6ace69c2448dda1ea645d4556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c1969d54fc26084bd010c45869b9ed') in 0.010148 seconds
+  Import took 0.012149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Pumpkin_Fruit.mat
+  artifactKey: Guid(d41c833ca4c077c449fc8b214fa60dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Pumpkin_Fruit.mat using Guid(d41c833ca4c077c449fc8b214fa60dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d6d88eaf7e90fb3921c61a8139a4ad') in 0.009266 seconds
+  Import took 0.011573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Tomato_Plant.mat
+  artifactKey: Guid(e292b51f6375349498f26d572faddc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Tomato_Plant.mat using Guid(e292b51f6375349498f26d572faddc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3557417d3fa203359c826e68c27c241d') in 0.015706 seconds
+  Import took 0.017763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Corn_Plant.mat
+  artifactKey: Guid(a46349869de82824ba02d48aa61e68f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Corn_Plant.mat using Guid(a46349869de82824ba02d48aa61e68f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fdae44aa7bbfc2e91a030568122db2') in 0.022557 seconds
+  Import took 0.025135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Eggplant_Plant.mat
+  artifactKey: Guid(3ab8b27d5c162cf48b0c8ad6ed2e1496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Eggplant_Plant.mat using Guid(3ab8b27d5c162cf48b0c8ad6ed2e1496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0447c57147b28449bac5824ad971ee4f') in 0.020648 seconds
+  Import took 0.022911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Eggplant_Fruit.mat
+  artifactKey: Guid(84069b5b67b23e24b85eac888c3f5bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Eggplant_Fruit.mat using Guid(84069b5b67b23e24b85eac888c3f5bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532b5a9ec2c8cb7e15cafc74fd1bade0') in 0.024843 seconds
+  Import took 0.026800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Turnip_Fruit.mat
+  artifactKey: Guid(5c447342ee33d5e41b58c66831ddd16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Turnip_Fruit.mat using Guid(5c447342ee33d5e41b58c66831ddd16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47910996f869cc78743f6dbe85b27d06') in 0.017967 seconds
+  Import took 0.020009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Carrot_Plant.mat
+  artifactKey: Guid(12cb46c4f90417445acbbf4abb87381f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Carrot_Plant.mat using Guid(12cb46c4f90417445acbbf4abb87381f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a95864c9f50a453d4a10fa45d804bb') in 0.019163 seconds
+  Import took 0.021607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Turnip_Plant.mat
+  artifactKey: Guid(ee377534d2cf3e243ab8ce782be8b5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Turnip_Plant.mat using Guid(ee377534d2cf3e243ab8ce782be8b5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6eedf3157fbd532129e8a8d335a916b') in 0.019618 seconds
+  Import took 0.021781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Corn_Fruit.mat
+  artifactKey: Guid(bd3ac3aaa239ebf4396eb261af13874d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Corn_Fruit.mat using Guid(bd3ac3aaa239ebf4396eb261af13874d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f61ad13b60d08c1db1de49b628abfa8') in 0.021487 seconds
+  Import took 0.023907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Pumpkin_Plant.mat
+  artifactKey: Guid(0273778534c5ff64ead5f799219ca127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Pumpkin_Plant.mat using Guid(0273778534c5ff64ead5f799219ca127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50adb30b79e9af4c23f7c0eeb951f3cd') in 0.020041 seconds
+  Import took 0.022360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Tomato_Fruit.mat
+  artifactKey: Guid(388986c9e8f85524db50964a7d9d5052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Tomato_Fruit.mat using Guid(388986c9e8f85524db50964a7d9d5052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc75a23c9441f75376ed1045d64f02c3') in 0.018855 seconds
+  Import took 0.021087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Cartoon_Farm_Crops/Materials/Cartoon_Farm_Crops_Mobiles.mat
+  artifactKey: Guid(29a286d2dc90be241a18e462c6b29a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Materials/Cartoon_Farm_Crops_Mobiles.mat using Guid(29a286d2dc90be241a18e462c6b29a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67b68b62501f855e2f81e291ff6471b') in 0.012832 seconds
+  Import took 0.015371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013397 seconds.
+  path: Assets/Cartoon_Farm_Crops/Meshes/Cartoon_Farm_Crops.fbx
+  artifactKey: Guid(b69b26c8b73b8bd49bf243bbe541a2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Meshes/Cartoon_Farm_Crops.fbx using Guid(b69b26c8b73b8bd49bf243bbe541a2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e8db62727df4230120ae6a5ff77e3a') in 0.076265 seconds
+  Import took 0.078338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Cartoon_Farm_Crops/Meshes/Cartoon_Farm_Crops_Mobile.fbx
+  artifactKey: Guid(fbd33e75d8d4bf9479c9cb59e83a9e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Meshes/Cartoon_Farm_Crops_Mobile.fbx using Guid(fbd33e75d8d4bf9479c9cb59e83a9e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b02ccb7a879e63616f11eeb33fe52a') in 0.064845 seconds
+  Import took 0.067024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.820390 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard
+  artifactKey: Guid(0f43114e13e8f10469e2aa034cbd874b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard using Guid(0f43114e13e8f10469e2aa034cbd874b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad44a31d0b588d85f95e847e663dc0f4') in 0.007130 seconds
+  Import took 0.009747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061270 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Carrot_Fruit.prefab
+  artifactKey: Guid(2cf13a738fc434c46bda5ebf7ca44756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Carrot_Fruit.prefab using Guid(2cf13a738fc434c46bda5ebf7ca44756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d5d09e8b746178f834461723f8d313') in 0.013828 seconds
+  Import took 0.016767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Dirt_Pile.prefab
+  artifactKey: Guid(c26cacf51e485c54b95fdbf9ad976ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Dirt_Pile.prefab using Guid(c26cacf51e485c54b95fdbf9ad976ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62db3bcffd7ab399b5e1500d97dff9c7') in 0.017660 seconds
+  Import took 0.021111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Pumpkin_Plant.prefab
+  artifactKey: Guid(30319199574ca3644bf3898bb5cac486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Pumpkin_Plant.prefab using Guid(30319199574ca3644bf3898bb5cac486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3f6477fe2bd9846115c58f49362dae') in 0.012776 seconds
+  Import took 0.015917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Eggplant_Fruit.prefab
+  artifactKey: Guid(92417dd2b68fd6147a711fb2af4275b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Eggplant_Fruit.prefab using Guid(92417dd2b68fd6147a711fb2af4275b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e695b5f8e9079cffa24d7a70235ebf4') in 0.009120 seconds
+  Import took 0.011556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Eggplant_Plant.prefab
+  artifactKey: Guid(97c7589824dbbb24cbc2b95a9345ebb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Eggplant_Plant.prefab using Guid(97c7589824dbbb24cbc2b95a9345ebb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863bbaeefa87cd7e5efb51a3a418a8d6') in 0.009775 seconds
+  Import took 0.012018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Carrot_Plant.prefab
+  artifactKey: Guid(56b36da289d9a9e4cb37c5f588e23748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Carrot_Plant.prefab using Guid(56b36da289d9a9e4cb37c5f588e23748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c105aebdedef8662a3f2de442b1809c4') in 0.008463 seconds
+  Import took 0.010682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Corn_Plant.prefab
+  artifactKey: Guid(1c8776a0b36cd9a4f813bf0d2d59d109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Corn_Plant.prefab using Guid(1c8776a0b36cd9a4f813bf0d2d59d109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a65eb3a32d2be8f7e9bef2fcdafc54') in 0.008458 seconds
+  Import took 0.010615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Pumpkin_Fruit.prefab
+  artifactKey: Guid(0adfa404918648e42a1fb073ef9010d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Pumpkin_Fruit.prefab using Guid(0adfa404918648e42a1fb073ef9010d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70be201a535a8e4aa5ae0586f280706a') in 0.009600 seconds
+  Import took 0.011778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Tomato_Fruit.prefab
+  artifactKey: Guid(ad3b2f45225bb0c4f8f80eacd5111af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Tomato_Fruit.prefab using Guid(ad3b2f45225bb0c4f8f80eacd5111af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cbe773d9572ea89f1e0169d035dc78') in 0.008505 seconds
+  Import took 0.010785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Turnip_Fruit.prefab
+  artifactKey: Guid(9c0476b14d8c518499bcc0adff155ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Turnip_Fruit.prefab using Guid(9c0476b14d8c518499bcc0adff155ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc68a294e65c18a478ba26ffaf22b7d') in 0.009459 seconds
+  Import took 0.011643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Turnip_Plant.prefab
+  artifactKey: Guid(f0666abddd74e5644ac4cf977d74e5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Turnip_Plant.prefab using Guid(f0666abddd74e5644ac4cf977d74e5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18e6d1eb8fb598e096b36ceaaae3bc4') in 0.011285 seconds
+  Import took 0.013728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Tomato_Plant.prefab
+  artifactKey: Guid(323e5d46aea633c42bfadb66b36971d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Tomato_Plant.prefab using Guid(323e5d46aea633c42bfadb66b36971d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f650bcf9a181bd51291d27e35a776d') in 0.009612 seconds
+  Import took 0.012010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Cartoon_Farm_Crops/Prefabs/Standard/Corn_Fruit.prefab
+  artifactKey: Guid(8490d29919917de4ca0c5297d93090d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Farm_Crops/Prefabs/Standard/Corn_Fruit.prefab using Guid(8490d29919917de4ca0c5297d93090d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1576e0bc3d74119dc48d4f41991c0a2') in 0.009106 seconds
+  Import took 0.011754 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -3,15 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuManager : MonoBehaviour
+namespace AIBunnies
 {
-    public void OnStart()
+    public class MenuManager : MonoBehaviour
     {
-        SceneManager.LoadScene(1);
-    }
+        public void OnStart()
+        {
+            SceneManager.LoadScene(1);
+        }
 
-    public void OnExit()
-    {
-        Application.Quit();
+        public void OnExit()
+        {
+            Application.Quit();
+        }
     }
 }

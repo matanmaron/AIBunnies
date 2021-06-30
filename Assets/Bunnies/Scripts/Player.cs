@@ -7,9 +7,10 @@ namespace AIBunnies
 {
     public class Player : MonoBehaviour
     {
-        public float speed = 0.02f;
-        public float distance = 1.5f;
-        public ThirdPersonCharacter thirdPersonCharacter;
+        [SerializeField] float speed = 0.02f;
+        [SerializeField] float distance = 1.5f;
+        [SerializeField] ThirdPersonCharacter thirdPersonCharacter;
+
         Vector3 goal;
         Animator anim;
         bool isWalking;
