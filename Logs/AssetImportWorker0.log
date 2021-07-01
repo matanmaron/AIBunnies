@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1055; Version 2009; 64bit' Language: 'en' Physical Memory: 32637 MB
+OS: 'Windows 10 Pro; OS build 19043.1081; Version 2009; 64bit' Language: 'en' Physical Memory: 16274 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,425 +11,134 @@ C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/matan/Documents/GitHub/AIBunnies
+C:/Repos/AIBunnies
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49462
-Successfully changed project path to: C:/Users/matan/Documents/GitHub/AIBunnies
-C:/Users/matan/Documents/GitHub/AIBunnies
+64515
+Successfully changed project path to: C:/Repos/AIBunnies
+C:/Repos/AIBunnies
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.18 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/matan/Documents/GitHub/AIBunnies/Assets
+[Subsystems] Discovering subsystems at path C:/Repos/AIBunnies/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
     Vendor:   
-    VRAM:     8088 MB
-    Driver:   30.0.14.7111
+    VRAM:     8137 MB
+    Driver:   27.20.100.8935
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001318 seconds.
+Registered in 0.002526 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 29.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.368 seconds
+- Completed reload, in  1.646 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002274 seconds.
+Registered in 0.006904 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.732 seconds
+- Completed reload, in  1.729 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1520 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.2 MB.
-System memory in use after: 77.9 MB.
+Unloading 1522 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.6 MB.
+System memory in use after: 77.3 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1960.
-Total: 1.494600 ms (FindLiveObjects: 0.108500 ms CreateObjectMapping: 0.031900 ms MarkObjects: 1.120700 ms  DeleteObjects: 0.232900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Bunnies/Prefabs/AI.prefab
-  artifactKey: Guid(95602d9f1d80ed04dbb4829783bb1858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bunnies/Prefabs/AI.prefab using Guid(95602d9f1d80ed04dbb4829783bb1858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45debe019a163b20acc11463d6e07e19') in 0.091325 seconds
-  Import took 0.093540 seconds .
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1960.
+Total: 2.973300 ms (FindLiveObjects: 0.240300 ms CreateObjectMapping: 0.048200 ms MarkObjects: 2.272200 ms  DeleteObjects: 0.411600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Bunnies/Prefabs/Carrot.prefab
-  artifactKey: Guid(c055577a19130694db1f26587dd1c607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bunnies/Prefabs/Carrot.prefab using Guid(c055577a19130694db1f26587dd1c607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bcdcf1c0039008a0cf1fd9a2f305ca') in 0.005699 seconds
-  Import took 0.007951 seconds .
+  path: Assets/Bunnies/Scenes
+  artifactKey: Guid(ca0ec69288218c34b95d7049aa2cdd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bunnies/Scenes using Guid(ca0ec69288218c34b95d7049aa2cdd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4640a8ab29b7cd0c42aa82da589020da') in 0.011423 seconds
+  Import took 0.014830 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Bunnies/Prefabs/Player.prefab
-  artifactKey: Guid(abb928b0033254b4e99e4f1a5f71298b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bunnies/Prefabs/Player.prefab using Guid(abb928b0033254b4e99e4f1a5f71298b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1158dbde09485a017b5029a2fa49fa09') in 0.016495 seconds
-  Import took 0.018845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.972697 seconds.
-  path: Assets/Bunnies/Prefabs/Carrot.prefab
-  artifactKey: Guid(c055577a19130694db1f26587dd1c607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bunnies/Prefabs/Carrot.prefab using Guid(c055577a19130694db1f26587dd1c607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72843c5ff3e4dab59f066e3ab241dd7') in 0.002755 seconds
-  Import took 0.005037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.708723 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Carrot_Fruit.prefab
-  artifactKey: Guid(5ccf902a46d565441be630bd717cab9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Carrot_Fruit.prefab using Guid(5ccf902a46d565441be630bd717cab9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88f901ca0ea35475c5adbba7d974d8c') in 0.035060 seconds
-  Import took 0.038350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Eggplant_Fruit.prefab
-  artifactKey: Guid(f3a9c7ecfacfb2f4db788d6a3acdbf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Eggplant_Fruit.prefab using Guid(f3a9c7ecfacfb2f4db788d6a3acdbf54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2909bfc9eba690e49f7e4be961ebcf57') in 0.009032 seconds
-  Import took 0.011206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Carrot_Plant.prefab
-  artifactKey: Guid(20a97bb13c3ef18478cf9c86535b1e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Carrot_Plant.prefab using Guid(20a97bb13c3ef18478cf9c86535b1e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc2490456cb909034a64493ce5c97c5') in 0.010970 seconds
-  Import took 0.013542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Tomato_Plant.prefab
-  artifactKey: Guid(1cee73a22ae3bff49a094a5883eabd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Tomato_Plant.prefab using Guid(1cee73a22ae3bff49a094a5883eabd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9ea9447305faccc22e54d0d1f210f1') in 0.010602 seconds
-  Import took 0.013353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000476 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Turnip_Fruit.prefab
-  artifactKey: Guid(becd827951d0b4046808ba97418ecf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Turnip_Fruit.prefab using Guid(becd827951d0b4046808ba97418ecf28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd922f15cdad746df0af11fe1579f6921') in 0.011196 seconds
-  Import took 0.014246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Turnip_Plant.prefab
-  artifactKey: Guid(61b0f6b970bd324438f2ffc56c6ddf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Turnip_Plant.prefab using Guid(61b0f6b970bd324438f2ffc56c6ddf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca6cda89f5ed8650e83e3a24a497740') in 0.010067 seconds
-  Import took 0.012270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Eggplant_Plant.prefab
-  artifactKey: Guid(fa6407b600577284bb8840b157c7d1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Eggplant_Plant.prefab using Guid(fa6407b600577284bb8840b157c7d1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955ae345e3d29af502e9b363a3a051bf') in 0.019075 seconds
-  Import took 0.021444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Pumpkin_Fruit.prefab
-  artifactKey: Guid(c2a2644fedfa0a849bbc9b40600c5c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Pumpkin_Fruit.prefab using Guid(c2a2644fedfa0a849bbc9b40600c5c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af5c0f04f2e487583032247b10d6aa6') in 0.018193 seconds
-  Import took 0.020897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Corn_Plant.prefab
-  artifactKey: Guid(a97ffd75102541b46b48cffc80ef3da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Corn_Plant.prefab using Guid(a97ffd75102541b46b48cffc80ef3da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ca947d5fbe13462a3611b05ce1aae1') in 0.022255 seconds
-  Import took 0.025865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Dirt_Pile.prefab
-  artifactKey: Guid(8dfbe94bc89610d489620aca436a33ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Dirt_Pile.prefab using Guid(8dfbe94bc89610d489620aca436a33ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1697907187070bf90c3fb33a47e3ab') in 0.014530 seconds
-  Import took 0.017681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Corn_Fruit.prefab
-  artifactKey: Guid(525cdbe33e2709049b014f3e3748e15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Corn_Fruit.prefab using Guid(525cdbe33e2709049b014f3e3748e15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d893a9e983c8be73c6268dc605b6da') in 0.019390 seconds
-  Import took 0.021528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Pumpkin_Plant.prefab
-  artifactKey: Guid(85cae589c09bb234d907a2ea8d0bac98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Pumpkin_Plant.prefab using Guid(85cae589c09bb234d907a2ea8d0bac98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a561ce1e835f6b0bf5775df14f90ce') in 0.015339 seconds
-  Import took 0.017456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Tomato_Fruit.prefab
-  artifactKey: Guid(054e8622a5bae1644b0baa6708dbbc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cartoon_Farm_Crops/Prefabs/Mobile/Tomato_Fruit.prefab using Guid(054e8622a5bae1644b0baa6708dbbc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1384d31a3e08016c1e0dc091c566290c') in 0.018856 seconds
-  Import took 0.023271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 761.882737 seconds.
-  path: Assets/Bunnies/Scripts/Carrot.cs
-  artifactKey: Guid(967f5db44efe5b24c89079c7c4638d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bunnies/Scripts/Carrot.cs using Guid(967f5db44efe5b24c89079c7c4638d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0450662442b391d4d89f41731085cdb') in 0.007813 seconds
-  Import took 0.010361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.925426 seconds.
-  path: Assets/Bunnies/Scripts/Carrot.cs
-  artifactKey: Guid(967f5db44efe5b24c89079c7c4638d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bunnies/Scripts/Carrot.cs using Guid(967f5db44efe5b24c89079c7c4638d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aada48e403b33c9bffa4d2dc6c5ffbff') in 0.001465 seconds
-  Import took 0.003569 seconds .
+  Time since last request: 0.000345 seconds.
+  path: Assets/Bunnies/Scenes/Game.unity
+  artifactKey: Guid(6671c5fd8e760cf45907a2bb8b0aa0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bunnies/Scenes/Game.unity using Guid(6671c5fd8e760cf45907a2bb8b0aa0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9ab544ab3c9eafafb84a4fc925d1b2') in 0.021169 seconds
+  Import took 0.026251 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002125 seconds.
+Registered in 0.005493 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.637 seconds
+- Completed reload, in  1.164 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.0 MB.
-System memory in use after: 92.7 MB.
+System memory in use before: 75.5 MB.
+System memory in use after: 75.2 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1972.
-Total: 1.781800 ms (FindLiveObjects: 0.127400 ms CreateObjectMapping: 0.032200 ms MarkObjects: 1.341500 ms  DeleteObjects: 0.279800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 630.013067 seconds.
-  path: Assets/Bunnies/Scripts/BunniesHelper.cs
-  artifactKey: Guid(5724c730aef122543ab397dd3a62211e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bunnies/Scripts/BunniesHelper.cs using Guid(5724c730aef122543ab397dd3a62211e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bceda0848ff758eccd8c5b993ebaaa2') in 0.006624 seconds
-  Import took 0.008721 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1963.
+Total: 3.067800 ms (FindLiveObjects: 0.230800 ms CreateObjectMapping: 0.076800 ms MarkObjects: 2.358700 ms  DeleteObjects: 0.400200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002376 seconds.
+Registered in 0.015758 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.676 seconds
+- Completed reload, in  1.465 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1498 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.1 MB.
-System memory in use after: 92.8 MB.
+Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.5 MB.
+System memory in use after: 75.3 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1976.
-Total: 1.715200 ms (FindLiveObjects: 0.131400 ms CreateObjectMapping: 0.032500 ms MarkObjects: 1.285800 ms  DeleteObjects: 0.264500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 13058.764074 seconds.
-  path: Assets/Bunnies/Scripts/BunniesHelper.cs
-  artifactKey: Guid(5724c730aef122543ab397dd3a62211e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bunnies/Scripts/BunniesHelper.cs using Guid(5724c730aef122543ab397dd3a62211e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd320971c9af38c1b27b238456f8629cf') in 0.011630 seconds
-  Import took 0.015470 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1966.
+Total: 3.190300 ms (FindLiveObjects: 0.213200 ms CreateObjectMapping: 0.055800 ms MarkObjects: 2.502800 ms  DeleteObjects: 0.417000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.099324 seconds.
+Registered in 0.004965 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.669 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1498 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.1 MB.
-System memory in use after: 92.8 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1979.
-Total: 2.966100 ms (FindLiveObjects: 0.283500 ms CreateObjectMapping: 0.082600 ms MarkObjects: 2.340700 ms  DeleteObjects: 0.257600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002731 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.653 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1498 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.1 MB.
-System memory in use after: 92.8 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1982.
-Total: 2.185200 ms (FindLiveObjects: 0.272200 ms CreateObjectMapping: 0.064000 ms MarkObjects: 1.497900 ms  DeleteObjects: 0.348900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1325.841610 seconds.
-  path: Assets/Bunnies/Prefabs/Carrot.prefab
-  artifactKey: Guid(c055577a19130694db1f26587dd1c607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bunnies/Prefabs/Carrot.prefab using Guid(c055577a19130694db1f26587dd1c607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7875954ddddfa88bd6c91b034a295db5') in 0.069403 seconds
-  Import took 0.071964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 570.683014 seconds.
-  path: Assets/Bunnies/Prefabs/Carrot.prefab
-  artifactKey: Guid(c055577a19130694db1f26587dd1c607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bunnies/Prefabs/Carrot.prefab using Guid(c055577a19130694db1f26587dd1c607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de7176a2f2db430d5f19630579d33b3') in 0.008429 seconds
-  Import took 0.012253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.531649 seconds.
-  path: Assets/Bunnies/Prefabs/Carrot.prefab
-  artifactKey: Guid(c055577a19130694db1f26587dd1c607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bunnies/Prefabs/Carrot.prefab using Guid(c055577a19130694db1f26587dd1c607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10f852762e9ca6a1acba003495c0199') in 0.021012 seconds
-  Import took 0.024106 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002087 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.650 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1498 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.2 MB.
-System memory in use after: 92.9 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1986.
-Total: 1.502800 ms (FindLiveObjects: 0.100900 ms CreateObjectMapping: 0.030000 ms MarkObjects: 1.096300 ms  DeleteObjects: 0.274900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 130.636202 seconds.
-  path: Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/Anim_controllers/PT_Medieval_Male_Peasant_01_a_Animator Controller.controller
-  artifactKey: Guid(087c8a3cd33baa44caec2489189dcc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Polytope Studio/Lowpoly Medieval Characters/Sources/Animations/Anim_controllers/PT_Medieval_Male_Peasant_01_a_Animator Controller.controller using Guid(087c8a3cd33baa44caec2489189dcc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d83683012f8a72a44e9be8ea791d7f') in 0.033779 seconds
-  Import took 0.036360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.291276 seconds.
-  path: Assets/Rabbits/Demo/Animator/DemoAnimator.controller
-  artifactKey: Guid(8beaedaf7a4023642b48737ef7ee04b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rabbits/Demo/Animator/DemoAnimator.controller using Guid(8beaedaf7a4023642b48737ef7ee04b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b370934c85ac84738c3321ca5a0e5744') in 0.025735 seconds
-  Import took 0.028203 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002559 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.612 seconds
+- Completed reload, in  1.066 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1498 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.1 MB.
-System memory in use after: 92.9 MB.
+Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.6 MB.
+System memory in use after: 75.3 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1989.
-Total: 1.768800 ms (FindLiveObjects: 0.164300 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.276600 ms  DeleteObjects: 0.290400 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1969.
+Total: 2.586300 ms (FindLiveObjects: 0.178600 ms CreateObjectMapping: 0.039300 ms MarkObjects: 1.995100 ms  DeleteObjects: 0.372300 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 1.847644 seconds.
-  path: Assets/Rabbits/Demo/Animator/DemoAnimator.controller
-  artifactKey: Guid(8beaedaf7a4023642b48737ef7ee04b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rabbits/Demo/Animator/DemoAnimator.controller using Guid(8beaedaf7a4023642b48737ef7ee04b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b8991a13d81bee5de10ea93e3476a7') in 0.012285 seconds
-  Import took 0.014318 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002729 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.624 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1498 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.2 MB.
-System memory in use after: 92.9 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1992.
-Total: 1.954400 ms (FindLiveObjects: 0.224700 ms CreateObjectMapping: 0.046900 ms MarkObjects: 1.379000 ms  DeleteObjects: 0.302200 ms)
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

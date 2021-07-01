@@ -204,7 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 738e46b61252c824294681196dec5872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.02
+  speed: 0.1
   distance: 2
   thirdPersonCharacter: {fileID: 6292588864642544851}
 --- !u!114 &6292588864642544851
