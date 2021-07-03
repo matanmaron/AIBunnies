@@ -1,22 +1,21 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityStandardAssets.Characters.ThirdPerson;
 
 namespace AIBunnies
 {
     public class AI : MonoBehaviour
     {
+        NavMeshAgent navMeshAgent;
         private Transform goal;
-        [SerializeField] float speed = 0.01f;
-        [SerializeField] float distance = 1.5f;
-        [SerializeField]ThirdPersonCharacter thirdPersonCharacter;
-
         Animator anim;
         bool isWalking;
 
         private void Start()
         {
+            navMeshAgent = GetComponent<NavMeshAgent>();
             goal = GameManager.Instance.GetPlayerTransform();
             anim = GetComponent<Animator>();
         }
@@ -24,24 +23,21 @@ namespace AIBunnies
         void Update()
         {
             Vector3 realGoal = new Vector3(goal.position.x, transform.position.y, goal.position.z);
-            Vector3 direction = realGoal - transform.position;
-            if (direction.magnitude >= distance)
+            navMeshAgent.SetDestination(realGoal);
+            Debug.DrawLine(transform.position, realGoal, Color.red);
+            if (navMeshAgent.remainingDistance > navMeshAgent.stoppingDistance)
             {
                 if (!isWalking)
                 {
                     anim.SetBool("Run", true);
                     isWalking = true;
                 }
-                Vector3 pushVector = direction.normalized * speed;
-                transform.Translate(pushVector, Space.World);
-                thirdPersonCharacter.Move(pushVector, false, false);
             }
             else if (isWalking)
             {
                 anim.SetBool("Run", false);
                 isWalking = false;
             }
-            Debug.DrawLine(transform.position, realGoal, Color.red);
         }
     }
 }

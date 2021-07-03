@@ -1,28 +1,30 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityStandardAssets.Characters.ThirdPerson;
 
 namespace AIBunnies
 {
     public class Player : MonoBehaviour
     {
-        [SerializeField] float speed = 0.02f;
-        [SerializeField] float distance = 1.5f;
-        [SerializeField] ThirdPersonCharacter thirdPersonCharacter;
-
+        NavMeshAgent navMeshAgent;
         Vector3 goal;
         Animator anim;
         bool isWalking;
 
         private void Start()
         {
-            anim = GetComponent<Animator>();
+            navMeshAgent = GetComponent<NavMeshAgent>();
             goal = transform.position;
+            anim = GetComponent<Animator>();
         }
 
         void Update()
         {
+            Vector3 realGoal = new Vector3(goal.x, transform.position.y, goal.z);
+            navMeshAgent.SetDestination(realGoal);
+            Debug.DrawLine(transform.position, realGoal, Color.green);
             if (Input.GetMouseButtonUp(0))
             {
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -33,27 +35,19 @@ namespace AIBunnies
                     goal = hit.point;
                 }
             }
-            Vector3 realGoal = new Vector3(goal.x,
-                transform.position.y, goal.z);
-            Vector3 direction = realGoal - transform.position;
-
-            if (direction.magnitude >= distance)
+            if (navMeshAgent.remainingDistance > navMeshAgent.stoppingDistance)
             {
                 if (!isWalking)
                 {
-                    anim.SetBool("Run",true);
+                    anim.SetBool("Run", true);
                     isWalking = true;
                 }
-                Vector3 pushVector = direction.normalized * speed;
-                transform.Translate(pushVector, Space.World);
-                thirdPersonCharacter.Move(pushVector, false, false);
             }
             else if (isWalking)
             {
                 anim.SetBool("Run", false);
                 isWalking = false;
             }
-            Debug.DrawLine(transform.position, realGoal, Color.green);
         }
     }
 }
