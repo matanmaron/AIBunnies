@@ -1299,7 +1299,6 @@ GameObject:
   - component: {fileID: 8487922815920555741}
   - component: {fileID: 8487922815920555735}
   - component: {fileID: 8487922815920555729}
-  - component: {fileID: 8487922815920555731}
   m_Layer: 0
   m_Name: AI
   m_TagString: Untagged
@@ -1354,9 +1353,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d52f7633ee7caa43ad067a52301ffcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.08
-  distance: 2
-  thirdPersonCharacter: {fileID: 8487922815920555731}
 --- !u!54 &8487922815920555735
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1387,26 +1383,6 @@ CapsuleCollider:
   m_Height: 1.7900871
   m_Direction: 1
   m_Center: {x: 0, y: 0.8950185, z: 0}
---- !u!114 &8487922815920555731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8487922815920555740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce7a80d520cacc042b5fe14f373d8173, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MovingTurnSpeed: 360
-  m_StationaryTurnSpeed: 180
-  m_JumpPower: 12
-  m_GravityMultiplier: 2
-  m_RunCycleLegOffset: 0.2
-  m_MoveSpeedMultiplier: 1
-  m_AnimSpeedMultiplier: 1
-  m_GroundCheckDistance: 0.1
 --- !u!1 &8487922815920555742
 GameObject:
   m_ObjectHideFlags: 0
