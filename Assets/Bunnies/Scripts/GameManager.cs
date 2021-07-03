@@ -9,6 +9,8 @@ namespace AIBunnies
     {
         [SerializeField] Transform Player;
         [SerializeField] Transform Ai;
+        [SerializeField] UIManager uIManager;
+        int playerPoints = 0;
 
         #region singleton
         private static GameManager _instance;
@@ -30,6 +32,12 @@ namespace AIBunnies
         internal Transform GetPlayerTransform()
         {
             return Player;
+        }
+
+        internal void GivePlayerPoint()
+        {
+            playerPoints++;
+            uIManager.RefreshPoints(playerPoints);
         }
     }
 }
