@@ -2,69 +2,72 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AudioManager : MonoBehaviour
+namespace AIBunnies
 {
-    #region singleton
-    public static AudioManager Instance { get; private set; }
-    private void Awake()
+    public class AudioManager : MonoBehaviour
     {
-        if (Instance != null && Instance != this)
+        #region singleton
+        public static AudioManager Instance { get; private set; }
+        private void Awake()
         {
-            Destroy(this.gameObject);
+            if (Instance != null && Instance != this)
+            {
+                Destroy(this.gameObject);
+            }
+            else
+            {
+                Instance = this;
+            }
         }
-        else
-        {
-            Instance = this;
-        }
-    }
-    #endregion
+        #endregion
 
-    [SerializeField] List<AudioSource> SFXPlayer = null;
-    [SerializeField] AudioSource SFXCarrot = null;
-    int currentSfx = 0;
+        [SerializeField] List<AudioSource> SFXPlayer = null;
+        [SerializeField] AudioSource SFXCarrot = null;
+        int currentSfx = 0;
 
-    [SerializeField] AudioClip Yell;
-    [SerializeField] AudioClip Lost;
-    [SerializeField] AudioClip Levelup;
-    [SerializeField] AudioClip GameOver;
-    private AudioSource PlayEffect(AudioClip clip)
-    {
-        Debug.Log($"[AudioManager] Using sfx player ({currentSfx})");
-        SFXPlayer[currentSfx].clip = clip;
-        SFXPlayer[currentSfx].Play();
-        currentSfx++;
-        if (currentSfx >= SFXPlayer.Count)
+        [SerializeField] AudioClip Yell;
+        [SerializeField] AudioClip Lost;
+        [SerializeField] AudioClip Levelup;
+        [SerializeField] AudioClip GameOver;
+        private AudioSource PlayEffect(AudioClip clip)
         {
-            currentSfx = 0;
+            Debug.Log($"[AudioManager] Using sfx player ({currentSfx})");
+            SFXPlayer[currentSfx].clip = clip;
+            SFXPlayer[currentSfx].Play();
+            currentSfx++;
+            if (currentSfx >= SFXPlayer.Count)
+            {
+                currentSfx = 0;
+            }
+            return SFXPlayer[currentSfx];
         }
-        return SFXPlayer[currentSfx];
-    }
 
-    public void PlayCarrot(bool play)
-    {
-        if (play)
+        public void PlayCarrot(bool play)
         {
-            SFXCarrot.Play();
+            if (play)
+            {
+                SFXCarrot.Play();
+            }
+            else
+            {
+                SFXCarrot.Stop();
+            }
         }
-        else
+        public void PlayYell()
         {
-            SFXCarrot.Stop();
+            PlayEffect(Yell);
         }
-    }
-    public void PlayYell()
-    {
-        PlayEffect(Yell);
-    }
-    public void PlayLost()
-    {
-        PlayEffect(Lost);
-    }
-    public void PlayLevelup()
-    {
-        PlayEffect(Levelup);
-    }
-    public void PlayGameOver()
-    {
-        PlayEffect(GameOver);
+        public void PlayLost()
+        {
+            PlayEffect(Lost);
+        }
+        public void PlayLevelup()
+        {
+            PlayEffect(Levelup);
+        }
+        public void PlayGameOver()
+        {
+            PlayEffect(GameOver);
+        }
     }
 }

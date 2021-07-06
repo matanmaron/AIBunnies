@@ -3,10 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UIManager : MonoBehaviour
+namespace AIBunnies
 {
-    internal void RefreshPoints(int playerPoints)
+    public class UIManager : MonoBehaviour
     {
-        Debug.Log($"[UI] playerPoints: {playerPoints}");
+        internal void RefreshPoints(int playerPoints)
+        {
+            Debug.Log($"[UI] playerPoints: {playerPoints}");
+        }
     }
 }
