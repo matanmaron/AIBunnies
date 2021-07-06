@@ -31,7 +31,7 @@ namespace AIBunnies
                 RaycastHit hit;
                 if (Physics.Raycast(ray, out hit))
                 {
-                    Debug.Log($"new target set - {hit.point}");
+                    Debug.Log($"[PLAYER] new target set - {hit.point}");
                     goal = hit.point;
                 }
             }

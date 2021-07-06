@@ -7,6 +7,6 @@ public class UIManager : MonoBehaviour
 {
     internal void RefreshPoints(int playerPoints)
     {
-        Debug.Log($"playerPoints: {playerPoints}");
+        Debug.Log($"[UI] playerPoints: {playerPoints}");
     }
 }

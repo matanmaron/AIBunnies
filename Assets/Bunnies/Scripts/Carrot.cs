@@ -42,6 +42,7 @@ namespace AIBunnies
                 {
                     Debug.Log("[CARROT] stop");
                     StopCoroutine(coroutine);
+                    GameManager.Instance.MakeNoise(false);
                     transform.position = startPos;
                     label.text = string.Empty;
                     coroutine = null;
@@ -51,6 +52,7 @@ namespace AIBunnies
 
         IEnumerator GetCarrot()
         {
+            GameManager.Instance.MakeNoise(true);
             Debug.Log("[CARROT] spin 1");
             label.text = "3";
             yield return new WaitForSeconds(1);
@@ -63,6 +65,7 @@ namespace AIBunnies
             Debug.Log("[CARROT] out");
             label.text = string.Empty;
             GameManager.Instance.GivePlayerPoint();
+            GameManager.Instance.MakeNoise(false);
             Destroy(gameObject);
         }
     }

@@ -1,45 +1,66 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.AI;
+using Debug = UnityEngine.Debug;
 
 namespace AIBunnies
 {
-    public class AIPatrolState : StateMachineBehaviour
+    public class AIPursueState : StateMachineBehaviour
     {
         NavMeshAgent navMeshAgent;
-        private Transform goal;
         private Transform transform;
         private Transform player;
-        List<Transform> AIGoals;
-        float speed = 2f;
+        Stopwatch stopWatch = new Stopwatch();
+        bool hasSight = true;
+        float speed = 4f;
 
         // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
         override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
             player = GameManager.Instance.GetPlayerTransform();
             transform = animator.transform;
-            AIGoals = GameManager.Instance.AIGoals;
             navMeshAgent = animator.gameObject.GetComponent<NavMeshAgent>();
-            goal = transform;
             navMeshAgent.speed = speed;
         }
 
         // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
         override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
-            Vector3 realGoal = new Vector3(goal.position.x, transform.position.y, goal.position.z);
+            Vector3 realGoal = new Vector3(player.position.x, transform.position.y, player.position.z);
             navMeshAgent.SetDestination(realGoal);
             Debug.DrawLine(transform.position, realGoal, Color.red);
-            if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance)
+            for (int i = 0; i < 10; i++)
             {
-                goal = AIGoals[Random.Range(0, AIGoals.Count)];
+                Debug.DrawRay(transform.position, Vector3.forward * GameManager.Instance.AIViewFieldDistance);
             }
-            Debug.DrawRay(transform.position, transform.forward * GameManager.Instance.AIViewFieldDistance);
-            if (IsInSight())
+            if (IsInSight() && !hasSight)
             {
-                Debug.Log("[AI] IsInSight");
-                animator.SetBool("InSight", true);
+                hasSight = true;
+                stopWatch.Reset();
+                stopWatch.Stop();
+            }
+            else if (!hasSight)
+            {
+                stopWatch.Reset();
+                stopWatch.Start();
+                GameManager.Instance.StartTimer(delegate { CheckWatch(animator); });
+            }
+        }
+
+        private void CheckWatch(Animator anim)
+        {
+            if (hasSight)
+            {
+                return;
+            }
+            TimeSpan ts = stopWatch.Elapsed;
+            if (ts.TotalSeconds > 1)
+            {
+                anim.SetBool("InSight", false);
+                Debug.Log($"[AI] Lost sight for ({ts.TotalSeconds}) seconds");
             }
         }
 
@@ -65,7 +86,10 @@ namespace AIBunnies
             RaycastHit hit;
             if (Physics.Raycast(transform.position, distanceVector.normalized, out hit, distance))
             {
-                return (hit.collider.transform == player);
+                if (hit.collider.tag == BunniesHelper.Constants.PLAYER_TAG)
+                {
+                    return true;
+                }
             }
             return false;
         }
