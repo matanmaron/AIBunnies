@@ -12,7 +12,7 @@ namespace AIBunnies
         private Transform transform;
         private Transform player;
         List<Transform> AIGoals;
-        float speed = 2f;
+        float speed = 2;
 
         // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
         override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -62,11 +62,31 @@ namespace AIBunnies
                 return false;
             }
 
-            //3. Obstacles       
-            RaycastHit hit;
-            if (Physics.Raycast(transform.position, distanceVector.normalized, out hit, distance))
+            if (GameManager.Instance.AIViewFieldAngle == 360)
             {
-                return (hit.collider.transform == player);
+                //3. Soud       
+                RaycastHit[] hits = Physics.RaycastAll(transform.position, distanceVector.normalized, distance);
+                foreach (var hit in hits)
+                {
+                    if (hit.collider.tag == BunniesHelper.Constants.PLAYER_TAG)
+                    {
+                        Debug.Log("[AI] Detect Sound!");
+                        return true;
+                    }
+                }
+            }
+            else
+            {
+                //3. Obstacles       
+                RaycastHit hit;
+                if (Physics.Raycast(transform.position, distanceVector.normalized, out hit, distance))
+                {
+                    if (hit.collider.tag == BunniesHelper.Constants.PLAYER_TAG)
+                    {
+                        Debug.Log("[AI] Detect Sight!");
+                        return true;
+                    }
+                }
             }
             return false;
         }

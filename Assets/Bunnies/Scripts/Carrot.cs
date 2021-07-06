@@ -10,21 +10,20 @@ namespace AIBunnies
     {
         [SerializeField] Text label = null;
         [SerializeField] Transform labelParent = null;
-        private Animator anim; //TODO: animate carrot out
+        [SerializeField] ParticleSystem effect = null;
         private Coroutine coroutine = null;
         private Vector3 startPos;
 
         private void Start()
         {
-            anim = GetComponent<Animator>();
             startPos = transform.position;
             label.text = string.Empty;
             label.transform.position = Camera.main.WorldToScreenPoint(labelParent.position);
         }
 
-        private void OnCollisionEnter(Collision collision)
+        private void OnTriggerEnter(Collider other)
         {
-            if (collision.gameObject.tag == BunniesHelper.Constants.PLAYER_TAG)
+            if (other.gameObject.tag == BunniesHelper.Constants.PLAYER_TAG)
             {
                 if (coroutine == null)
                 {
@@ -34,13 +33,14 @@ namespace AIBunnies
             }
         }
 
-        private void OnCollisionExit(Collision collision)
+        private void OnTriggerExit(Collider other)
         {
-            if (collision.gameObject.tag == BunniesHelper.Constants.PLAYER_TAG)
+            if (other.gameObject.tag == BunniesHelper.Constants.PLAYER_TAG)
             {
                 if (coroutine != null)
                 {
                     Debug.Log("[CARROT] stop");
+                    effect.Stop();
                     StopCoroutine(coroutine);
                     GameManager.Instance.MakeNoise(false);
                     transform.position = startPos;
@@ -52,6 +52,7 @@ namespace AIBunnies
 
         IEnumerator GetCarrot()
         {
+            effect.Play();
             GameManager.Instance.MakeNoise(true);
             Debug.Log("[CARROT] spin 1");
             label.text = "3";
@@ -66,6 +67,7 @@ namespace AIBunnies
             label.text = string.Empty;
             GameManager.Instance.GivePlayerPoint();
             GameManager.Instance.MakeNoise(false);
+            effect.Stop();
             Destroy(gameObject);
         }
     }

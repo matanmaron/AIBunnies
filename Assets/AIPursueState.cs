@@ -83,13 +83,36 @@ namespace AIBunnies
                 return false;
             }
 
-            //3. Obstacles       
-            RaycastHit hit;
-            if (Physics.Raycast(transform.position, distanceVector.normalized, out hit, distance))
+            if (GameManager.Instance.AIViewFieldAngle == 360)
             {
-                if (hit.collider.tag == BunniesHelper.Constants.PLAYER_TAG)
+                //3. Soud       
+                RaycastHit[] hits = Physics.RaycastAll(transform.position, distanceVector.normalized, distance);
+                foreach (var hit in hits)
                 {
-                    return true;
+                    if (hit.collider.tag == BunniesHelper.Constants.PLAYER_TAG)
+                    {
+                        if (!hasSight)
+                        {
+                            Debug.Log("[AI] Detect Sound!");
+                        }
+                        return true;
+                    }
+                }
+            }
+            else
+            {
+                //3. Obstacles       
+                RaycastHit hit;
+                if (Physics.Raycast(transform.position, distanceVector.normalized, out hit, distance))
+                {
+                    if (hit.collider.tag == BunniesHelper.Constants.PLAYER_TAG)
+                    {
+                        if (!hasSight)
+                        {
+                            Debug.Log("[AI] Detect Sight!");
+                        }
+                        return true;
+                    }
                 }
             }
             return false;
