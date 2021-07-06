@@ -59,6 +59,7 @@ namespace AIBunnies
             TimeSpan ts = stopWatch.Elapsed;
             if (ts.TotalSeconds > 1)
             {
+                AudioManager.Instance.PlayLost();
                 anim.SetBool("InSight", false);
                 Debug.Log($"[AI] Lost sight for ({ts.TotalSeconds}) seconds");
             }

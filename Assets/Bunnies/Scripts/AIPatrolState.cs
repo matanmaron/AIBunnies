@@ -38,6 +38,7 @@ namespace AIBunnies
             Debug.DrawRay(transform.position, transform.forward * GameManager.Instance.AIViewFieldDistance);
             if (IsInSight())
             {
+                AudioManager.Instance.PlayYell();
                 Debug.Log("[AI] IsInSight");
                 animator.SetBool("InSight", true);
             }

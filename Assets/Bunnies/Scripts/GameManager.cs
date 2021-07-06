@@ -59,10 +59,12 @@ namespace AIBunnies
         {
             if (IsNoise)
             {
+                AudioManager.Instance.PlayCarrot(true);
                 AIViewFieldAngle = 360;
             }
             else
             {
+                AudioManager.Instance.PlayCarrot(false);
                 AIViewFieldAngle = 60;
             }
         }
