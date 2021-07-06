@@ -49,5 +49,13 @@ namespace AIBunnies
                 isWalking = false;
             }
         }
+
+        private void OnCollisionEnter(Collision collision)
+        {
+            if (collision.gameObject.tag == BunniesHelper.Constants.CARROT_TAG)
+            {
+                goal = transform.position;
+            }
+        }
     }
 }
