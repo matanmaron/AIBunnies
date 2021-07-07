@@ -1,8 +1,5 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 
 namespace AIBunnies
 {
@@ -15,7 +12,7 @@ namespace AIBunnies
         [SerializeField] internal float AIViewFieldDistance = 20;
         [SerializeField] internal float AIViewFieldAngle = 110;
         int playerPoints = 0;
-
+        bool gameover = false;
         #region singleton
         private static GameManager _instance;
         public static GameManager Instance { get { return _instance; } }
@@ -42,6 +39,17 @@ namespace AIBunnies
         {
             playerPoints++;
             uIManager.RefreshPoints(playerPoints);
+            if (playerPoints == BunniesHelper.Constants.NEEDED_POINTS)
+            {
+                gameover = true;
+                uIManager.GameOver(true);
+            }
+        }
+
+        internal void LoseGame()
+        {
+            gameover = true;
+            uIManager.GameOver(false);
         }
 
         internal void MakeNoise(bool IsNoise)

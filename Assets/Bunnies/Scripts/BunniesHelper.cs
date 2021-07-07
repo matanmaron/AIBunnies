@@ -11,6 +11,7 @@ namespace AIBunnies
             public const string PLAYER_TAG = "Player";
             public const string CARROT_TAG = "Carrot";
             public const string FARMER_TAG = "Farmer";
+            public const int NEEDED_POINTS = 4;
         }
     }
 }

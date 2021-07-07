@@ -56,6 +56,10 @@ namespace AIBunnies
             {
                 goal = transform.position;
             }
+            if (collision.gameObject.tag == BunniesHelper.Constants.FARMER_TAG)
+            {
+                GameManager.Instance.LoseGame();
+            }
         }
     }
 }
