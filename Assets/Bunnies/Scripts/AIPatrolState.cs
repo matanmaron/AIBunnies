@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -12,7 +11,7 @@ namespace AIBunnies
         private Transform transform;
         private Transform player;
         List<Transform> AIGoals;
-        float speed = 2;
+        float speed = 3;
 
         // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
         override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

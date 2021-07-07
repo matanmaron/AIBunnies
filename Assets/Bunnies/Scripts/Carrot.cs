@@ -23,6 +23,7 @@ namespace AIBunnies
 
         private void OnTriggerEnter(Collider other)
         {
+            Debug.Log($"[CARROT] OnTriggerEnter {other.gameObject.name}");
             if (other.gameObject.tag == BunniesHelper.Constants.PLAYER_TAG)
             {
                 if (coroutine == null)

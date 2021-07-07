@@ -1,8 +1,5 @@
-using System;
-using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityStandardAssets.Characters.ThirdPerson;
 
 namespace AIBunnies
 {
@@ -50,13 +47,14 @@ namespace AIBunnies
             }
         }
 
-        private void OnCollisionEnter(Collision collision)
+        private void OnTriggerEnter(Collider other)
         {
-            if (collision.gameObject.tag == BunniesHelper.Constants.CARROT_TAG)
+            Debug.Log($"[PLAYER] OnTriggerEnter {other.gameObject.name}");
+            if (other.gameObject.tag == BunniesHelper.Constants.CARROT_TAG)
             {
                 goal = transform.position;
             }
-            if (collision.gameObject.tag == BunniesHelper.Constants.FARMER_TAG)
+            if (other.gameObject.tag == BunniesHelper.Constants.FARMER_TAG)
             {
                 GameManager.Instance.LoseGame();
             }

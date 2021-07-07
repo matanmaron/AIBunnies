@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.AI;
 using Debug = UnityEngine.Debug;
@@ -13,8 +9,7 @@ namespace AIBunnies
         NavMeshAgent navMeshAgent;
         private Transform transform;
         private Transform player;
-        Stopwatch stopWatch = new Stopwatch();
-        float speed = 4f;
+        float speed = 6;
 
         // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
         override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -31,10 +26,7 @@ namespace AIBunnies
             Vector3 realGoal = new Vector3(player.position.x, transform.position.y, player.position.z);
             navMeshAgent.SetDestination(realGoal);
             Debug.DrawLine(transform.position, realGoal, Color.red);
-            for (int i = 0; i < 10; i++)
-            {
-                Debug.DrawRay(transform.position, Vector3.forward * GameManager.Instance.AIViewFieldDistance);
-            }
+            Debug.DrawRay(transform.position, Vector3.forward * GameManager.Instance.AIViewFieldDistance);
             if (!IsInSight())
             {
                 AudioManager.Instance.PlayLost();
