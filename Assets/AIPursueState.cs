@@ -9,7 +9,6 @@ namespace AIBunnies
         NavMeshAgent navMeshAgent;
         private Transform transform;
         private Transform player;
-        float speed = 6;
 
         // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
         override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -17,12 +16,16 @@ namespace AIBunnies
             player = GameManager.Instance.GetPlayerTransform();
             transform = animator.transform;
             navMeshAgent = animator.gameObject.GetComponent<NavMeshAgent>();
-            navMeshAgent.speed = speed;
+            navMeshAgent.speed = BunniesHelper.Constants.AI_PERSUE_SPEED;
         }
 
         // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
         override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {
+            if (GameManager.Instance.IsGameOver)
+            {
+                return;
+            }
             Vector3 realGoal = new Vector3(player.position.x, transform.position.y, player.position.z);
             navMeshAgent.SetDestination(realGoal);
             Debug.DrawLine(transform.position, realGoal, Color.red);
@@ -49,7 +52,7 @@ namespace AIBunnies
             Vector3 distanceVector = player.transform.position - transform.position;
             distanceVector.y = 0;
 
-            if (GameManager.Instance.AIViewFieldAngle == 360)
+            if (GameManager.Instance.AIViewFieldAngle == BunniesHelper.Constants.FIELD_ANGLE_PERSUE)
             {
                 //3. Soud       
                 RaycastHit[] hits = Physics.RaycastAll(transform.position, distanceVector.normalized, distance);

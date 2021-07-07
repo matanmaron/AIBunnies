@@ -15,10 +15,15 @@ namespace AIBunnies
             navMeshAgent = GetComponent<NavMeshAgent>();
             goal = transform.position;
             anim = GetComponent<Animator>();
+            navMeshAgent.speed = BunniesHelper.Constants.PLAYER_SPEED;
         }
 
         void Update()
         {
+            if (GameManager.Instance.IsGameOver)
+            {
+                return;
+            }
             Vector3 realGoal = new Vector3(goal.x, transform.position.y, goal.z);
             navMeshAgent.SetDestination(realGoal);
             Debug.DrawLine(transform.position, realGoal, Color.green);

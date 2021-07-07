@@ -9,10 +9,11 @@ namespace AIBunnies
         [SerializeField] Transform Ai;
         [SerializeField] UIManager uIManager;
         [SerializeField] internal List<Transform> AIGoals;
-        [SerializeField] internal float AIViewFieldDistance = 20;
-        [SerializeField] internal float AIViewFieldAngle = 110;
+        [SerializeField] internal float AIViewFieldDistance = BunniesHelper.Constants.FIELD_DISTANCE;
+        [SerializeField] internal float AIViewFieldAngle = BunniesHelper.Constants.FIELD_ANGLE_PATROL;
         int playerPoints = 0;
-        bool gameover = false;
+        public bool IsGameOver = false;
+
         #region singleton
         private static GameManager _instance;
         public static GameManager Instance { get { return _instance; } }
@@ -41,14 +42,27 @@ namespace AIBunnies
             uIManager.RefreshPoints(playerPoints);
             if (playerPoints == BunniesHelper.Constants.NEEDED_POINTS)
             {
-                gameover = true;
-                uIManager.GameOver(true);
+                WinGame();
             }
+        }
+
+        internal void WinGame()
+        {
+            if (IsGameOver)
+            {
+                return;
+            }
+            IsGameOver = true;
+            uIManager.GameOver(true);
         }
 
         internal void LoseGame()
         {
-            gameover = true;
+            if (IsGameOver)
+            {
+                return;
+            }
+            IsGameOver = true;
             uIManager.GameOver(false);
         }
 
@@ -57,12 +71,12 @@ namespace AIBunnies
             if (IsNoise)
             {
                 AudioManager.Instance.PlayCarrot(true);
-                AIViewFieldAngle = 360;
+                AIViewFieldAngle = BunniesHelper.Constants.FIELD_ANGLE_PERSUE;
             }
             else
             {
                 AudioManager.Instance.PlayCarrot(false);
-                AIViewFieldAngle = 60;
+                AIViewFieldAngle = BunniesHelper.Constants.FIELD_ANGLE_PATROL;
             }
         }
     }

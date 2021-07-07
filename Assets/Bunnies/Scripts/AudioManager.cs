@@ -61,13 +61,16 @@ namespace AIBunnies
         {
             PlayEffect(Lost);
         }
-        public void PlayLevelup()
+        public void PlayGameOver(bool isWin)
         {
-            PlayEffect(Levelup);
-        }
-        public void PlayGameOver()
-        {
-            PlayEffect(GameOver);
+            if (isWin)
+            {
+                PlayEffect(Levelup);
+            }
+            else
+            {
+                PlayEffect(GameOver);
+            }
         }
     }
 }

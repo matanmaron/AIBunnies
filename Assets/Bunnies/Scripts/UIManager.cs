@@ -20,6 +20,7 @@ namespace AIBunnies
         {
             WinImg.SetActive(isWin);
             LoseImg.SetActive(!isWin);
+            AudioManager.Instance.PlayGameOver(isWin);
             GameOverPanel.SetActive(true);
         }
 
