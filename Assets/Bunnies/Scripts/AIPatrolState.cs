@@ -37,13 +37,26 @@ namespace AIBunnies
             {
                 goal = AIGoals[Random.Range(0, AIGoals.Count)];
             }
-            Debug.DrawRay(transform.position, transform.forward * GameManager.Instance.AIViewFieldDistance);
+            OnDrawGizmosSelected();
             if (IsInSight())
             {
                 AudioManager.Instance.PlayYell();
                 Debug.Log("[AI] IsInSight");
                 animator.SetBool("InSight", true);
             }
+        }
+
+        void OnDrawGizmosSelected()
+        {
+            float totalFOV = GameManager.Instance.AIViewFieldAngle;
+            float rayRange = GameManager.Instance.AIViewFieldDistance;
+            float halfFOV = totalFOV / 2.0f;
+            Quaternion leftRayRotation = Quaternion.AngleAxis(-halfFOV, Vector3.up);
+            Quaternion rightRayRotation = Quaternion.AngleAxis(halfFOV, Vector3.up);
+            Vector3 leftRayDirection = leftRayRotation * transform.forward;
+            Vector3 rightRayDirection = rightRayRotation * transform.forward;
+            Debug.DrawRay(transform.position, leftRayDirection * rayRange);
+            Debug.DrawRay(transform.position, rightRayDirection * rayRange);
         }
 
         public bool IsInSight()

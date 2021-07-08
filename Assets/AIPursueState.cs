@@ -29,13 +29,26 @@ namespace AIBunnies
             Vector3 realGoal = new Vector3(player.position.x, transform.position.y, player.position.z);
             navMeshAgent.SetDestination(realGoal);
             Debug.DrawLine(transform.position, realGoal, Color.red);
-            Debug.DrawRay(transform.position, Vector3.forward * GameManager.Instance.AIViewFieldDistance);
+            OnDrawGizmosSelected();
             if (!IsInSight())
             {
                 AudioManager.Instance.PlayLost();
                 animator.SetBool("InSight", false);
                 Debug.Log($"[AI] Lost sight");
             }
+        }
+
+        void OnDrawGizmosSelected()
+        {
+            float totalFOV = GameManager.Instance.AIViewFieldAngle;
+            float rayRange = GameManager.Instance.AIViewFieldDistance;
+            float halfFOV = totalFOV / 2.0f;
+            Quaternion leftRayRotation = Quaternion.AngleAxis(-halfFOV, Vector3.up);
+            Quaternion rightRayRotation = Quaternion.AngleAxis(halfFOV, Vector3.up);
+            Vector3 leftRayDirection = leftRayRotation * transform.forward;
+            Vector3 rightRayDirection = rightRayRotation * transform.forward;
+            Debug.DrawRay(transform.position, leftRayDirection * rayRange);
+            Debug.DrawRay(transform.position, rightRayDirection * rayRange);
         }
 
         public bool IsInSight()
