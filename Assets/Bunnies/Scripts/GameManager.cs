@@ -9,8 +9,8 @@ namespace AIBunnies
         [SerializeField] Transform Ai;
         [SerializeField] UIManager uIManager;
         [SerializeField] internal List<Transform> AIGoals;
-        [SerializeField] internal float AIViewFieldDistance = BunniesHelper.Constants.FIELD_DISTANCE;
-        [SerializeField] internal float AIViewFieldAngle = BunniesHelper.Constants.FIELD_ANGLE_PATROL;
+        internal float AIViewFieldDistance = BunniesHelper.Constants.FIELD_DISTANCE;
+        internal float AIViewFieldAngle = BunniesHelper.Constants.FIELD_ANGLE_PATROL;
         int playerPoints = 0;
         public bool IsGameOver = false;
 
