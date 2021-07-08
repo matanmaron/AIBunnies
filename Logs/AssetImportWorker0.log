@@ -1570,3 +1570,45 @@ Received Import Request.
 Start importing Assets/Polytope Studio/Lowpoly Medieval Demos/Peasants_Free_Asset/New Terrain.asset using Guid(0b3365b61e7beaa44a5f0a5bc442c85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237211694c1afce423254ef5e0da2e5d') in 0.113833 seconds
   Import took 0.116973 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002219 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.634 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1501 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.5 MB.
+System memory in use after: 81.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2030.
+Total: 1.805700 ms (FindLiveObjects: 0.112900 ms CreateObjectMapping: 0.053700 ms MarkObjects: 1.184300 ms  DeleteObjects: 0.454100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002140 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.636 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1501 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.9 MB.
+System memory in use after: 81.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2033.
+Total: 1.488400 ms (FindLiveObjects: 0.107800 ms CreateObjectMapping: 0.029300 ms MarkObjects: 1.092800 ms  DeleteObjects: 0.257800 ms)
+
