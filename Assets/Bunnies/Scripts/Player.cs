@@ -5,6 +5,7 @@ namespace AIBunnies
 {
     public class Player : MonoBehaviour
     {
+        [SerializeField] ParticleSystem ClickEffect;
         NavMeshAgent navMeshAgent;
         Vector3 goal;
         Animator anim;
@@ -35,6 +36,9 @@ namespace AIBunnies
                 {
                     Debug.Log($"[PLAYER] new target set - {hit.point}");
                     goal = hit.point;
+                    ClickEffect.transform.position = goal;
+                    ClickEffect.Clear();
+                    ClickEffect.Play();
                 }
             }
             if (navMeshAgent.remainingDistance > navMeshAgent.stoppingDistance)

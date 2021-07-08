@@ -160,6 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 738e46b61252c824294681196dec5872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ClickEffect: {fileID: 0}
 --- !u!195 &9166458885959834870
 NavMeshAgent:
   m_ObjectHideFlags: 0
