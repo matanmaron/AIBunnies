@@ -13,10 +13,14 @@ namespace AIBunnies
         [SerializeField] ParticleSystem effect = null;
         private Coroutine coroutine = null;
         private Vector3 startPos;
+        private Vector3 endPos;
+        bool raise;
 
         private void Start()
         {
+            raise = false;
             startPos = transform.position;
+            endPos = new Vector3(startPos.x, startPos.y + 10, startPos.z);
             label.text = string.Empty;
             label.transform.position = Camera.main.WorldToScreenPoint(labelParent.position);
         }
@@ -34,6 +38,14 @@ namespace AIBunnies
             }
         }
 
+        private void Update()
+        {
+            if (raise || transform.position == endPos)
+            {
+                transform.position = Vector3.Lerp(transform.position, endPos, Time.deltaTime * 0.1f);
+            }
+        }
+
         private void OnTriggerExit(Collider other)
         {
             if (other.gameObject.tag == BunniesHelper.Constants.PLAYER_TAG)
@@ -41,6 +53,7 @@ namespace AIBunnies
                 if (coroutine != null)
                 {
                     Debug.Log("[CARROT] stop");
+                    raise = false;
                     effect.Stop();
                     StopCoroutine(coroutine);
                     GameManager.Instance.MakeNoise(false);
@@ -54,6 +67,7 @@ namespace AIBunnies
         IEnumerator GetCarrot()
         {
             effect.Play();
+            raise = true;
             GameManager.Instance.MakeNoise(true);
             Debug.Log("[CARROT] spin 1");
             label.text = "3";
@@ -64,6 +78,7 @@ namespace AIBunnies
             Debug.Log("[CARROT] spin 3");
             label.text = "1";
             yield return new WaitForSeconds(1);
+            raise = false;
             Debug.Log("[CARROT] out");
             label.text = string.Empty;
             GameManager.Instance.GivePlayerPoint();
