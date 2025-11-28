@@ -1,23 +1,30 @@
+Unity Editor version:    2022.3.62f2 (7670c08855a9)
+Branch:                  2022.3/respin/2022.3.62f2-4af31df585-v2
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.7.2 (Build 24G325)
+Darwin version:          24.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
 Using pre-set license
-Built from '2022.3/staging' branch; Version is '2022.3.1f1 (f18e0c1b5784) revision 15830540'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32631 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.1f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2022.3.62f2/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-C:/Repos/AIBunnies
+/Users/matanmaron/RiderProjects/AIBunnies
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-62529
-Successfully changed project path to: C:/Repos/AIBunnies
-C:/Repos/AIBunnies
+57770
+Successfully changed project path to: /Users/matanmaron/RiderProjects/AIBunnies
+/Users/matanmaron/RiderProjects/AIBunnies
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,185 +56,315 @@ C:/Repos/AIBunnies
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [41296] Host "[IP] 172.30.1.68 [Port] 0 [Flags] 2 [Guid] 3724872802 [EditorId] 3724872802 [Version] 1048832 [Id] WindowsEditor(7,BlackBox) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704273023168]  Target information:
 
-Player connection [41296] Host "[IP] 172.30.1.68 [Port] 0 [Flags] 2 [Guid] 3724872802 [EditorId] 3724872802 [Version] 1048832 [Id] WindowsEditor(7,BlackBox) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704273023168]  * "[IP] 172.30.1.4 [Port] 0 [Flags] 2 [Guid] 2293398930 [EditorId] 2293398930 [Version] 1048832 [Id] OSXEditor(0,matans-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Refreshing native plugins compatible for Editor in 4.82 ms, found 2 plugins.
+Player connection [140704273023168] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704273023168] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+Refreshing native plugins compatible for Editor in 5.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Repos/AIBunnies/Assets
+Initialize engine version: 2022.3.62f2 (7670c08855a9)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.62f2/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/matanmaron/RiderProjects/AIBunnies/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
-    Vendor:   NVIDIA
-    VRAM:     10067 MB
-    Driver:   31.0.15.4617
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics (low power)
+Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.62f2/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.62f2/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.62f2/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56517
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010765 seconds.
-- Loaded All Assemblies, in  0.271 seconds
-Native extension for WindowsStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-Native extension for iOS target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 209 ms
-Native extension for WebGL target not found
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.62f2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.62f2/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.028633 seconds.
+- Loaded All Assemblies, in  2.288 seconds
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.454 seconds
-Domain Reload Profiling: 724ms
-	BeginReloadAssembly (73ms)
+- Finished resetting the current domain, in  1.449 seconds
+Domain Reload Profiling: 3738ms
+	BeginReloadAssembly (549ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (108ms)
-		LoadAssemblies (72ms)
+	RebuildCommonClasses (220ms)
+	RebuildNativeTypeToScriptingClass (61ms)
+	initialDomainReloadingComplete (356ms)
+	LoadAllAssembliesAndSetupDomain (1101ms)
+		LoadAssemblies (549ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (103ms)
-			TypeCache.Refresh (103ms)
-				TypeCache.ScanAssembly (94ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (455ms)
+		AnalyzeDomain (1094ms)
+			TypeCache.Refresh (1088ms)
+				TypeCache.ScanAssembly (1018ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1451ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (412ms)
+		SetupLoadedEditorAssemblies (1190ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (308ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (119ms)
+			SetLoadedEditorAssemblies (87ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (67ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
+			BeforeProcessingInitializeOnLoad (25ms)
+			ProcessInitializeOnLoadAttributes (750ms)
+			ProcessInitializeOnLoadMethodAttributes (208ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
 Worker process is ready to serve import requests
+Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.428 seconds
-Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
+- Loaded All Assemblies, in  1.695 seconds
+Native extension for LinuxStandalone target not found
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.335 seconds
-Domain Reload Profiling: 761ms
-	BeginReloadAssembly (94ms)
+- Finished resetting the current domain, in  1.043 seconds
+Domain Reload Profiling: 2730ms
+	BeginReloadAssembly (369ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (17ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (269ms)
-		LoadAssemblies (166ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (180ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (180ms)
+	LoadAllAssembliesAndSetupDomain (916ms)
+		LoadAssemblies (745ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
-			TypeCache.Refresh (142ms)
-				TypeCache.ScanAssembly (133ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (336ms)
+		AnalyzeDomain (328ms)
+			TypeCache.Refresh (290ms)
+				TypeCache.ScanAssembly (261ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1044ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (233ms)
+		SetupLoadedEditorAssemblies (729ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (35ms)
-			ProcessInitializeOnLoadAttributes (149ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (604ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.06 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Toon/Basic Outline' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.62f2/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1527 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (373.1 KB). Loaded Objects now: 2007.
-Memory consumption went from 96.9 MB to 96.5 MB.
-Total: 3.653000 ms (FindLiveObjects: 0.228700 ms CreateObjectMapping: 0.045600 ms MarkObjects: 2.964100 ms  DeleteObjects: 0.411600 ms)
+Unloading 1999 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (388.8 KB). Loaded Objects now: 2479.
+Memory consumption went from 108.8 MB to 108.4 MB.
+Total: 4.862339 ms (FindLiveObjects: 0.158112 ms CreateObjectMapping: 0.116824 ms MarkObjects: 4.238036 ms  DeleteObjects: 0.347779 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 325496.782457 seconds.
-  path: Assets/Bunnies/SFX/carrot.mp3
-  artifactKey: Guid(ef80bfdbfec0b25439180505e7558e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bunnies/SFX/carrot.mp3 using Guid(ef80bfdbfec0b25439180505e7558e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ca197a3022ac5dd1d7cf46ff518583') in 0.065831 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 380.752890 seconds.
-  path: Assets/Bunnies/SFX/lost.mp3
-  artifactKey: Guid(18ecf052fe3a27c449ffbfa2cc5e146a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bunnies/SFX/lost.mp3 using Guid(18ecf052fe3a27c449ffbfa2cc5e146a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc8515e28516228eecd798be9b8f6ba') in 0.027714 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 416.669420 seconds.
-  path: Assets/Bunnies/SFX/yell.mp3
-  artifactKey: Guid(6f1675fc776ebce469f974d13fa7970c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bunnies/SFX/yell.mp3 using Guid(6f1675fc776ebce469f974d13fa7970c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15416e377c72ac166ddfe54cb9ddfbd') in 0.039050 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.004502 seconds.
-  path: Assets/Bunnies/Music
-  artifactKey: Guid(109ef698105fba544b489b4e017aaf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bunnies/Music using Guid(109ef698105fba544b489b4e017aaf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73423633004729c5986a869f3ab9a0e9') in 0.000461 seconds
+  Time since last request: 58919.621368 seconds.
+  path: Assets/Xbox Series Button Icons and Controls/Buttons Full Solid/White
+  artifactKey: Guid(28149571cde2d4a508bf19ac14ca9b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Series Button Icons and Controls/Buttons Full Solid/White using Guid(28149571cde2d4a508bf19ac14ca9b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1c8e0e140f632519e557056213bbb699') in 0.005040 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.048128 seconds.
-  path: Assets/Bunnies/Music/Game.mp3
-  artifactKey: Guid(6ac68fd1f77a0fa41858c7d3896ae2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bunnies/Music/Game.mp3 using Guid(6ac68fd1f77a0fa41858c7d3896ae2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62735d79addaf2c508546a83fd1e2d9a') in 0.010059 seconds
+  Time since last request: 0.200326 seconds.
+  path: Assets/Xbox Series Button Icons and Controls/Buttons Outline
+  artifactKey: Guid(26bd350d8075c421697575913b2bc5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Series Button Icons and Controls/Buttons Outline using Guid(26bd350d8075c421697575913b2bc5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5d38d52de0719c5d7937949b422098b1') in 0.006444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.396746 seconds.
+  path: Assets/Xbox Series Button Icons and Controls/Buttons Outline/Black
+  artifactKey: Guid(f3fc3fb5cb540431c98c0c6063af5f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Series Button Icons and Controls/Buttons Outline/Black using Guid(f3fc3fb5cb540431c98c0c6063af5f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'dddc1f9ab93a6cdd6d979d6287056601') in 0.001229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.578739 seconds.
+  path: Assets/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w
+  artifactKey: Guid(1dc0ebce9789c4c81ab45a80d1aa2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w using Guid(1dc0ebce9789c4c81ab45a80d1aa2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a6bdc67b2faa66341cbeee4297b4ebf5') in 0.002077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.644269 seconds.
+  path: Assets/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/A.png
+  artifactKey: Guid(91521c94d66aa41f6890c4cce41a2235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/A.png using Guid(91521c94d66aa41f6890c4cce41a2235) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '51c31497e9d8dbbf85f1bb2a1069651a') in 0.317878 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 115.529735 seconds.
-  path: Assets/Bunnies/Music/Game.mp3
-  artifactKey: Guid(6ac68fd1f77a0fa41858c7d3896ae2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bunnies/Music/Game.mp3 using Guid(6ac68fd1f77a0fa41858c7d3896ae2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb732701af46ee99af148cac221efb59') in 0.030172 seconds
+  Time since last request: 0.485642 seconds.
+  path: Assets/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/B.png
+  artifactKey: Guid(0690704da2fae40b2a6737f77c3110ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Series Button Icons and Controls/Buttons Outline/Black/128w/B.png using Guid(0690704da2fae40b2a6737f77c3110ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '9f27f8f296b0d50fff65e5852da73f9b') in 0.012214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.438594 seconds.
+  path: Assets/Xbox Series Button Icons and Controls/Buttons Solid
+  artifactKey: Guid(ac3aadf41f6514c8e8a4aeb16ed4bf7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Series Button Icons and Controls/Buttons Solid using Guid(ac3aadf41f6514c8e8a4aeb16ed4bf7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5cadc8054d608ea64c76486c3c4c11fa') in 0.002751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.798366 seconds.
+  path: Assets/Xbox Series Button Icons and Controls/Control Screen
+  artifactKey: Guid(06b678a8a04a049c586b47bf5b88bf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Series Button Icons and Controls/Control Screen using Guid(06b678a8a04a049c586b47bf5b88bf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'ecd19874592067437fd19abe9f9a3b73') in 0.002296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.083157 seconds.
+  path: Assets/Xbox Series Button Icons and Controls/Control Screen/Outline
+  artifactKey: Guid(4272eb75cabed4c17882b9d2aa3fb9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Series Button Icons and Controls/Control Screen/Outline using Guid(4272eb75cabed4c17882b9d2aa3fb9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '6125311e1993ea61adf7b397646f3464') in 0.002546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.538172 seconds.
+  path: Assets/Xbox Series Button Icons and Controls/Control Screen/Outline/Controls Outline Black 4k.png
+  artifactKey: Guid(9d1b1186d6041422a8c417af115a2cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Series Button Icons and Controls/Control Screen/Outline/Controls Outline Black 4k.png using Guid(9d1b1186d6041422a8c417af115a2cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e790f19f870f8104540056f6dd1f69eb') in 0.022929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.088907 seconds.
+  path: Assets/Xbox Series Button Icons and Controls/Control Screen/Solid
+  artifactKey: Guid(85f639399a9d041f9afd734e6088dced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Series Button Icons and Controls/Control Screen/Solid using Guid(85f639399a9d041f9afd734e6088dced) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3117447234194969be793229e4304514') in 0.002445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.772156 seconds.
+  path: Assets/Xbox Series Button Icons and Controls/Control Screen/Solid/Control Solid 4k.png
+  artifactKey: Guid(d7475418af3964e8fa21c1fc4b6cc10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Series Button Icons and Controls/Control Screen/Solid/Control Solid 4k.png using Guid(d7475418af3964e8fa21c1fc4b6cc10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '776b5a6829a9d353c02ee890d38c612a') in 0.014289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.858189 seconds.
+  path: Assets/Xbox Series Button Icons and Controls/Control Screen/Solid/Control Solid Alt 4k.png
+  artifactKey: Guid(29be18a84f6ed45d2a6af182bebb0ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Series Button Icons and Controls/Control Screen/Solid/Control Solid Alt 4k.png using Guid(29be18a84f6ed45d2a6af182bebb0ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd79aaae26371117d80b1913c18ee94b0') in 0.013843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.347248 seconds.
+  path: Assets/Xbox Series Button Icons and Controls/Control Screen/Solid/Control Solid Alt Inv 4k.png
+  artifactKey: Guid(dfad753f1c0904129b8a969460f3ec01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Series Button Icons and Controls/Control Screen/Solid/Control Solid Alt Inv 4k.png using Guid(dfad753f1c0904129b8a969460f3ec01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c9503c35b78122c472d54dd749b72d7b') in 0.016684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.194069 seconds.
+  path: Assets/Xbox Series Button Icons and Controls/Control Screen/Solid/Control Solid Alt Inv SVG.svg
+  artifactKey: Guid(7cbe4b351202142249e38831ca8fa1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Series Button Icons and Controls/Control Screen/Solid/Control Solid Alt Inv SVG.svg using Guid(7cbe4b351202142249e38831ca8fa1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8ee36186c8ad620661803753fcef66c3') in 0.004153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.934539 seconds.
+  path: Assets/Xbox Series Button Icons and Controls/Controller Images
+  artifactKey: Guid(3d198e583fcf5478dabf00f105a90777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Series Button Icons and Controls/Controller Images using Guid(3d198e583fcf5478dabf00f105a90777) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'ea07f368b7e23569eacaf68629bf810d') in 0.001971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.815005 seconds.
+  path: Assets/Xbox Series Button Icons and Controls/Controller Images/Outline
+  artifactKey: Guid(33b86ebf057c240a7aab24aabb1d6ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Series Button Icons and Controls/Controller Images/Outline using Guid(33b86ebf057c240a7aab24aabb1d6ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f70ee904a57c1d15d4520a93a94c64f0') in 0.003469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.604111 seconds.
+  path: Assets/Xbox Series Button Icons and Controls/Controller Images/Outline/Outline Black 4k.png
+  artifactKey: Guid(b6fefa5a2afa04342b9664cba1cd7006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Xbox Series Button Icons and Controls/Controller Images/Outline/Outline Black 4k.png using Guid(b6fefa5a2afa04342b9664cba1cd7006) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd1758c37e9510f1b49ac1f59f16bde0a') in 0.013693 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
